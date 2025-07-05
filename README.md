@@ -55,8 +55,8 @@ It supports multiple test scenarios, including primitive benchmarks, TLS handsha
 ## 🔧 Installation
 
 ```bash
-git clone https://github.com/<your-username>/post-quantum-tls-vpn-framework.git
-cd post-quantum-tls-vpn-framework
+git clone https://github.com/montenegro-montes/TLS-VPN.git
+cd TLS-VPN
 chmod +x frameWork.sh
 ```
 
