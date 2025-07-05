@@ -1,0 +1,45 @@
+Applying netem rules to lo...
+Showing qdisc status for the interface: lo
+qdisc netem 8027: root refcnt 2 limit 1000 seed 5981930844776376363
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+Running ./perftestClientTlsQuic.sh with SIG_ALG=secp384r1 and KEM_ALG=x448
+Execution 1 - TLS Mutual
+s_connection: verify depth is 1
+Handshake duration: 4.03 ms
+Applying netem rules to lo...
+Showing qdisc status for the interface: lo
+qdisc netem 8029: root refcnt 2 limit 1000 seed 13249885090639623324
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+Running ./perftestClientTlsQuic.sh with SIG_ALG=secp384r1 and KEM_ALG=x448_mlkem768
+Execution 1 - TLS Mutual
+s_connection: verify depth is 1
+Handshake duration: 4.39 ms
+Applying netem rules to lo...
+Showing qdisc status for the interface: lo
+qdisc netem 802b: root refcnt 2 limit 1000 seed 12660030043990794048
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+Running ./perftestClientTlsQuic.sh with SIG_ALG=secp384r1 and KEM_ALG=mlkem768
+Execution 1 - TLS Mutual
+s_connection: verify depth is 1
+Handshake duration: 3.60 ms
+Applying netem rules to lo...
+Showing qdisc status for the interface: lo
+qdisc netem 802d: root refcnt 2 limit 1000 seed 16106573191738049421
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+Running ./perftestClientTlsQuic.sh with SIG_ALG=secp384r1 and KEM_ALG=x448_hqc192
+Execution 1 - TLS Mutual
+s_connection: verify depth is 1
+Handshake duration: 22.41 ms
+Applying netem rules to lo...
+Showing qdisc status for the interface: lo
+qdisc netem 802f: root refcnt 2 limit 1000 seed 3539105758281155529
+ Sent 0 bytes 0 pkt (dropped 0, overlimits 0 requeues 0) 
+ backlog 0b 0p requeues 0
+Running ./perftestClientTlsQuic.sh with SIG_ALG=secp384r1 and KEM_ALG=hqc192
+Execution 1 - TLS Mutual
+s_connection: verify depth is 1
+Handshake duration: 21.69 ms
