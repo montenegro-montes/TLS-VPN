@@ -29,7 +29,8 @@ show_menu() {
     echo "║ 1️⃣  KEM                                 ║"
     echo "║ 2️⃣  SIGNATURES  Traditional             ║"
     echo "║ 3️⃣  SIGNATURES  PQ                      ║"
-    echo "║ 4️⃣  Exit                                ║"
+    echo "║ 4️⃣  SIGNATURES  KeyGen                  ║"
+    echo "║ 5️⃣  Exit                                ║"
     echo "╚════════════════════════════════════════╝"
 }
 
@@ -140,13 +141,14 @@ fi
 while true; do
     show_menu
     echo ""
-    read -p "👉 Please enter your choice [1-4]: " choice
+    read -p "👉 Please enter your choice [1-5]: " choice
     echo ""
     case $choice in
         1) execute "benchmark_kem_primitives.sh" ;;
         2) execute "benchmark_sign_primitives.sh" ;;
         3) execute "benchmark_sign_primitives.sh" "mldsa44,mldsa65,mldsa87" ;;
-        4) echo "👋 Goodbye!" ; exit 0 ;;
+        4) ./run_keygen.sh ;;
+        5) echo "👋 Goodbye!" ; exit 0 ;;
         *) echo "❌ Invalid option. Please try again." ;;
     esac
     echo ""
