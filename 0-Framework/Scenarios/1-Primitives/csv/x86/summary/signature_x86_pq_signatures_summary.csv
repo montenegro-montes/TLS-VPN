@@ -1,0 +1,4 @@
+signature,sign_mean,sign_sd,sign_cv(%),sign_median,sign_iqr,sign_outliers(%),verify_mean,verify_sd,verify_cv(%),verify_median,verify_iqr,verify_outliers(%)
+mldsa44,0.110,0.001,0.81,0.110,0.001,4.00,0.039,0.000,1.01,0.039,0.000,4.00
+mldsa65,0.176,0.001,0.50,0.176,0.001,4.00,0.066,0.000,0.76,0.066,0.001,0.00
+mldsa87,0.221,0.001,0.60,0.221,0.002,0.00,0.105,0.001,0.51,0.105,0.001,0.00

@@ -1,0 +1,245 @@
+🚀 Creating new container oqs-openssl-extended with isolation flags...
+f578e22ddd17058fbfef61ce1a6f2d209591ee913cbeb7cf66a720f9446ecd80
+📁 Ensuring target directory in the container...
+📤 Copying benchmark_sign_primitives.sh to container...
+▶️ Executing the benchmark script inside the container...
+🔁 Repetitions per algorithm: 50
+⚙️  Executing 50 times benchmark for: ed25519
+Run   1/ 50:   sign: 0.047 ms   verify: 0.153 ms
+Run   2/ 50:   sign: 0.047 ms   verify: 0.155 ms
+Run   3/ 50:   sign: 0.048 ms   verify: 0.153 ms
+Run   4/ 50:   sign: 0.047 ms   verify: 0.157 ms
+Run   5/ 50:   sign: 0.048 ms   verify: 0.157 ms
+Run   6/ 50:   sign: 0.048 ms   verify: 0.157 ms
+Run   7/ 50:   sign: 0.047 ms   verify: 0.156 ms
+Run   8/ 50:   sign: 0.048 ms   verify: 0.154 ms
+Run   9/ 50:   sign: 0.048 ms   verify: 0.159 ms
+Run  10/ 50:   sign: 0.048 ms   verify: 0.155 ms
+Run  11/ 50:   sign: 0.047 ms   verify: 0.155 ms
+Run  12/ 50:   sign: 0.047 ms   verify: 0.154 ms
+Run  13/ 50:   sign: 0.047 ms   verify: 0.155 ms
+Run  14/ 50:   sign: 0.048 ms   verify: 0.157 ms
+Run  15/ 50:   sign: 0.047 ms   verify: 0.154 ms
+Run  16/ 50:   sign: 0.048 ms   verify: 0.156 ms
+Run  17/ 50:   sign: 0.048 ms   verify: 0.154 ms
+Run  18/ 50:   sign: 0.047 ms   verify: 0.158 ms
+Run  19/ 50:   sign: 0.046 ms   verify: 0.156 ms
+Run  20/ 50:   sign: 0.047 ms   verify: 0.158 ms
+Run  21/ 50:   sign: 0.048 ms   verify: 0.156 ms
+Run  22/ 50:   sign: 0.048 ms   verify: 0.153 ms
+Run  23/ 50:   sign: 0.048 ms   verify: 0.156 ms
+Run  24/ 50:   sign: 0.047 ms   verify: 0.157 ms
+Run  25/ 50:   sign: 0.048 ms   verify: 0.154 ms
+Run  26/ 50:   sign: 0.048 ms   verify: 0.154 ms
+Run  27/ 50:   sign: 0.047 ms   verify: 0.155 ms
+Run  28/ 50:   sign: 0.047 ms   verify: 0.153 ms
+Run  29/ 50:   sign: 0.048 ms   verify: 0.156 ms
+Run  30/ 50:   sign: 0.047 ms   verify: 0.159 ms
+Run  31/ 50:   sign: 0.048 ms   verify: 0.159 ms
+Run  32/ 50:   sign: 0.048 ms   verify: 0.159 ms
+Run  33/ 50:   sign: 0.048 ms   verify: 0.156 ms
+Run  34/ 50:   sign: 0.048 ms   verify: 0.155 ms
+Run  35/ 50:   sign: 0.048 ms   verify: 0.158 ms
+Run  36/ 50:   sign: 0.047 ms   verify: 0.156 ms
+Run  37/ 50:   sign: 0.047 ms   verify: 0.158 ms
+Run  38/ 50:   sign: 0.048 ms   verify: 0.157 ms
+Run  39/ 50:   sign: 0.048 ms   verify: 0.156 ms
+Run  40/ 50:   sign: 0.047 ms   verify: 0.154 ms
+Run  41/ 50:   sign: 0.048 ms   verify: 0.157 ms
+Run  42/ 50:   sign: 0.048 ms   verify: 0.154 ms
+Run  43/ 50:   sign: 0.048 ms   verify: 0.157 ms
+Run  44/ 50:   sign: 0.047 ms   verify: 0.157 ms
+Run  45/ 50:   sign: 0.048 ms   verify: 0.154 ms
+Run  46/ 50:   sign: 0.048 ms   verify: 0.157 ms
+Run  47/ 50:   sign: 0.048 ms   verify: 0.156 ms
+Run  48/ 50:   sign: 0.048 ms   verify: 0.153 ms
+Run  49/ 50:   sign: 0.048 ms   verify: 0.155 ms
+Run  50/ 50:   sign: 0.047 ms   verify: 0.157 ms
+
+✅ Finished 50 executions for: ed25519
+--------------------------------------------
+=== Stadistics to  sign (ed25519) ===
+Count      : 50
+Min        : 0.046 ms
+Max        : 0.048 ms
+Mean       : 0.048 ms
+Std Dev    : 0.001 ms
+CV         : 1.13 %
+Median(p50): 0.048 ms
+p90        : 0.048 ms
+p95        : 0.048 ms
+p99        : 0.048 ms
+Throughput : 21017 ops/s
+=== Stadistics to verify (ed25519) ===
+Count      : 50
+Min        : 0.153 ms
+Max        : 0.159 ms
+Mean       : 0.156 ms
+Std Dev    : 0.002 ms
+CV         : 1.12 %
+Median(p50): 0.156 ms
+p90        : 0.158 ms
+p95        : 0.159 ms
+p99        : 0.159 ms
+Throughput : 6418 ops/s
+
+⚙️  Executing 50 times benchmark for: ecdsap384
+Run   1/ 50:   sign: 1.269 ms   verify: 1.025 ms
+Run   2/ 50:   sign: 1.262 ms   verify: 1.044 ms
+Run   3/ 50:   sign: 1.250 ms   verify: 1.027 ms
+Run   4/ 50:   sign: 1.265 ms   verify: 1.040 ms
+Run   5/ 50:   sign: 1.233 ms   verify: 1.029 ms
+Run   6/ 50:   sign: 1.247 ms   verify: 1.020 ms
+Run   7/ 50:   sign: 1.254 ms   verify: 1.022 ms
+Run   8/ 50:   sign: 1.245 ms   verify: 1.050 ms
+Run   9/ 50:   sign: 1.254 ms   verify: 1.028 ms
+Run  10/ 50:   sign: 1.237 ms   verify: 1.041 ms
+Run  11/ 50:   sign: 1.241 ms   verify: 1.034 ms
+Run  12/ 50:   sign: 1.281 ms   verify: 1.029 ms
+Run  13/ 50:   sign: 1.257 ms   verify: 1.050 ms
+Run  14/ 50:   sign: 1.236 ms   verify: 1.040 ms
+Run  15/ 50:   sign: 1.265 ms   verify: 1.026 ms
+Run  16/ 50:   sign: 1.245 ms   verify: 1.030 ms
+Run  17/ 50:   sign: 1.243 ms   verify: 1.040 ms
+Run  18/ 50:   sign: 1.235 ms   verify: 1.030 ms
+Run  19/ 50:   sign: 1.246 ms   verify: 1.021 ms
+Run  20/ 50:   sign: 1.229 ms   verify: 1.030 ms
+Run  21/ 50:   sign: 1.251 ms   verify: 1.034 ms
+Run  22/ 50:   sign: 1.265 ms   verify: 1.027 ms
+Run  23/ 50:   sign: 1.256 ms   verify: 1.016 ms
+Run  24/ 50:   sign: 1.243 ms   verify: 1.047 ms
+Run  25/ 50:   sign: 1.277 ms   verify: 1.017 ms
+Run  26/ 50:   sign: 1.266 ms   verify: 1.037 ms
+Run  27/ 50:   sign: 1.252 ms   verify: 1.039 ms
+Run  28/ 50:   sign: 1.252 ms   verify: 1.034 ms
+Run  29/ 50:   sign: 1.273 ms   verify: 1.051 ms
+Run  30/ 50:   sign: 1.263 ms   verify: 1.036 ms
+Run  31/ 50:   sign: 1.256 ms   verify: 1.032 ms
+Run  32/ 50:   sign: 1.261 ms   verify: 1.016 ms
+Run  33/ 50:   sign: 1.257 ms   verify: 1.042 ms
+Run  34/ 50:   sign: 1.252 ms   verify: 1.045 ms
+Run  35/ 50:   sign: 1.262 ms   verify: 1.022 ms
+Run  36/ 50:   sign: 1.234 ms   verify: 1.033 ms
+Run  37/ 50:   sign: 1.257 ms   verify: 1.025 ms
+Run  38/ 50:   sign: 1.234 ms   verify: 1.033 ms
+Run  39/ 50:   sign: 1.252 ms   verify: 1.038 ms
+Run  40/ 50:   sign: 1.260 ms   verify: 1.040 ms
+Run  41/ 50:   sign: 1.247 ms   verify: 1.040 ms
+Run  42/ 50:   sign: 1.244 ms   verify: 1.054 ms
+Run  43/ 50:   sign: 1.261 ms   verify: 1.009 ms
+Run  44/ 50:   sign: 1.249 ms   verify: 1.046 ms
+Run  45/ 50:   sign: 1.278 ms   verify: 1.043 ms
+Run  46/ 50:   sign: 1.259 ms   verify: 1.039 ms
+Run  47/ 50:   sign: 1.255 ms   verify: 1.044 ms
+Run  48/ 50:   sign: 1.265 ms   verify: 1.048 ms
+Run  49/ 50:   sign: 1.239 ms   verify: 1.027 ms
+Run  50/ 50:   sign: 1.244 ms   verify: 1.032 ms
+
+✅ Finished 50 executions for: ecdsap384
+--------------------------------------------
+=== Stadistics to sign (ecdsap384) ===
+Count      : 50
+Min        : 1.229 ms
+Max        : 1.281 ms
+Mean       : 1.253 ms
+Std Dev    : 0.012 ms
+CV         : 0.99 %
+Median(p50): 1.253 ms
+p90        : 1.266 ms
+p95        : 1.275 ms
+p99        : 1.280 ms
+Throughput : 798 ops/s
+=== Stadistics to  verify (ecdsap384) ===
+Count      : 50
+Min        : 1.009 ms
+Max        : 1.054 ms
+Mean       : 1.034 ms
+Std Dev    : 0.010 ms
+CV         : 1.00 %
+Median(p50): 1.034 ms
+p90        : 1.047 ms
+p95        : 1.050 ms
+p99        : 1.053 ms
+Throughput : 967 ops/s
+
+⚙️  Executing 50 times benchmark for: ecdsap521
+Run   1/ 50:   sign: 3.017 ms   verify: 2.334 ms
+Run   2/ 50:   sign: 3.062 ms   verify: 2.342 ms
+Run   3/ 50:   sign: 2.969 ms   verify: 2.319 ms
+Run   4/ 50:   sign: 3.027 ms   verify: 2.384 ms
+Run   5/ 50:   sign: 2.977 ms   verify: 2.334 ms
+Run   6/ 50:   sign: 2.998 ms   verify: 2.351 ms
+Run   7/ 50:   sign: 3.007 ms   verify: 2.332 ms
+Run   8/ 50:   sign: 2.985 ms   verify: 2.357 ms
+Run   9/ 50:   sign: 2.999 ms   verify: 2.397 ms
+Run  10/ 50:   sign: 3.053 ms   verify: 2.374 ms
+Run  11/ 50:   sign: 2.952 ms   verify: 2.387 ms
+Run  12/ 50:   sign: 3.010 ms   verify: 2.296 ms
+Run  13/ 50:   sign: 3.161 ms   verify: 2.457 ms
+Run  14/ 50:   sign: 3.113 ms   verify: 2.437 ms
+Run  15/ 50:   sign: 3.025 ms   verify: 2.339 ms
+Run  16/ 50:   sign: 2.974 ms   verify: 2.334 ms
+Run  17/ 50:   sign: 2.975 ms   verify: 2.350 ms
+Run  18/ 50:   sign: 2.987 ms   verify: 2.305 ms
+Run  19/ 50:   sign: 2.966 ms   verify: 2.344 ms
+Run  20/ 50:   sign: 3.076 ms   verify: 2.368 ms
+Run  21/ 50:   sign: 2.975 ms   verify: 2.368 ms
+Run  22/ 50:   sign: 2.959 ms   verify: 2.330 ms
+Run  23/ 50:   sign: 2.992 ms   verify: 2.371 ms
+Run  24/ 50:   sign: 3.023 ms   verify: 2.300 ms
+Run  25/ 50:   sign: 3.078 ms   verify: 2.358 ms
+Run  26/ 50:   sign: 3.016 ms   verify: 2.374 ms
+Run  27/ 50:   sign: 2.950 ms   verify: 2.337 ms
+Run  28/ 50:   sign: 3.022 ms   verify: 2.335 ms
+Run  29/ 50:   sign: 2.983 ms   verify: 2.355 ms
+Run  30/ 50:   sign: 2.951 ms   verify: 2.340 ms
+Run  31/ 50:   sign: 3.041 ms   verify: 2.392 ms
+Run  32/ 50:   sign: 2.988 ms   verify: 2.321 ms
+Run  33/ 50:   sign: 2.976 ms   verify: 2.329 ms
+Run  34/ 50:   sign: 2.966 ms   verify: 2.316 ms
+Run  35/ 50:   sign: 3.042 ms   verify: 2.401 ms
+Run  36/ 50:   sign: 3.003 ms   verify: 2.320 ms
+Run  37/ 50:   sign: 2.990 ms   verify: 2.300 ms
+Run  38/ 50:   sign: 2.978 ms   verify: 2.364 ms
+Run  39/ 50:   sign: 2.960 ms   verify: 2.311 ms
+Run  40/ 50:   sign: 2.974 ms   verify: 2.350 ms
+Run  41/ 50:   sign: 3.026 ms   verify: 2.360 ms
+Run  42/ 50:   sign: 2.939 ms   verify: 2.290 ms
+Run  43/ 50:   sign: 2.949 ms   verify: 2.314 ms
+Run  44/ 50:   sign: 2.964 ms   verify: 2.364 ms
+Run  45/ 50:   sign: 2.937 ms   verify: 2.321 ms
+Run  46/ 50:   sign: 2.982 ms   verify: 2.327 ms
+Run  47/ 50:   sign: 3.050 ms   verify: 2.402 ms
+Run  48/ 50:   sign: 3.052 ms   verify: 2.384 ms
+Run  49/ 50:   sign: 2.963 ms   verify: 2.378 ms
+Run  50/ 50:   sign: 3.013 ms   verify: 2.398 ms
+
+✅ Finished 50 executions for: ecdsap521
+--------------------------------------------
+=== Stadistics to sign (ecdsap521) ===
+Count      : 50
+Min        : 2.937 ms
+Max        : 3.161 ms
+Mean       : 3.002 ms
+Std Dev    : 0.046 ms
+CV         : 1.52 %
+Median(p50): 2.989 ms
+p90        : 3.054 ms
+p95        : 3.077 ms
+p99        : 3.137 ms
+Throughput : 333 ops/s
+=== Stadistics to verify (ecdsap521) ===
+Count      : 50
+Min        : 2.290 ms
+Max        : 2.457 ms
+Mean       : 2.351 ms
+Std Dev    : 0.036 ms
+CV         : 1.51 %
+Median(p50): 2.347 ms
+p90        : 2.397 ms
+p95        : 2.402 ms
+p99        : 2.447 ms
+Throughput : 425 ops/s
+
+🧹 Cleaning up container...
+oqs-openssl-extended

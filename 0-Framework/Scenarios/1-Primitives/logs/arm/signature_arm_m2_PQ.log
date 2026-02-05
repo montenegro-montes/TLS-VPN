@@ -1,0 +1,245 @@
+🚀 Creating new container uma-primitives-benchmark with isolation flags...
+b7b59f78d790d79a19592fac1bd5c9c3fdca6e5c486f94cf46603fa1ce0b1b65
+📁 Ensuring target directory in the container...
+📤 Copying benchmark_sign_primitives.sh to container...
+Successfully copied 6.66kB to uma-primitives-benchmark:/opt/oqssa/bin/
+▶️ Executing the benchmark script inside the container...
+mldsa44,mldsa65,mldsa87
+📍 Benchmarking the following algorithms: mldsa44 mldsa65 mldsa87
+🔁 Repetitions per algorithm: 50
+⚙️  Executing 50 times benchmark for: mldsa44
+Run   1/ 50:   sign: 0.233 ms   verify: 0.059 ms
+Run   2/ 50:   sign: 0.233 ms   verify: 0.059 ms
+Run   3/ 50:   sign: 0.233 ms   verify: 0.061 ms
+Run   4/ 50:   sign: 0.233 ms   verify: 0.059 ms
+Run   5/ 50:   sign: 0.235 ms   verify: 0.059 ms
+Run   6/ 50:   sign: 0.239 ms   verify: 0.059 ms
+Run   7/ 50:   sign: 0.236 ms   verify: 0.060 ms
+Run   8/ 50:   sign: 0.236 ms   verify: 0.059 ms
+Run   9/ 50:   sign: 0.233 ms   verify: 0.059 ms
+Run  10/ 50:   sign: 0.234 ms   verify: 0.059 ms
+Run  11/ 50:   sign: 0.234 ms   verify: 0.059 ms
+Run  12/ 50:   sign: 0.235 ms   verify: 0.059 ms
+Run  13/ 50:   sign: 0.237 ms   verify: 0.071 ms
+Run  14/ 50:   sign: 0.238 ms   verify: 0.059 ms
+Run  15/ 50:   sign: 0.234 ms   verify: 0.060 ms
+Run  16/ 50:   sign: 0.236 ms   verify: 0.059 ms
+Run  17/ 50:   sign: 0.234 ms   verify: 0.059 ms
+Run  18/ 50:   sign: 0.232 ms   verify: 0.059 ms
+Run  19/ 50:   sign: 0.235 ms   verify: 0.059 ms
+Run  20/ 50:   sign: 0.233 ms   verify: 0.059 ms
+Run  21/ 50:   sign: 0.235 ms   verify: 0.059 ms
+Run  22/ 50:   sign: 0.233 ms   verify: 0.059 ms
+Run  23/ 50:   sign: 0.234 ms   verify: 0.061 ms
+Run  24/ 50:   sign: 0.238 ms   verify: 0.059 ms
+Run  25/ 50:   sign: 0.234 ms   verify: 0.059 ms
+Run  26/ 50:   sign: 0.233 ms   verify: 0.066 ms
+Run  27/ 50:   sign: 0.238 ms   verify: 0.059 ms
+Run  28/ 50:   sign: 0.243 ms   verify: 0.059 ms
+Run  29/ 50:   sign: 0.235 ms   verify: 0.059 ms
+Run  30/ 50:   sign: 0.235 ms   verify: 0.059 ms
+Run  31/ 50:   sign: 0.232 ms   verify: 0.059 ms
+Run  32/ 50:   sign: 0.235 ms   verify: 0.059 ms
+Run  33/ 50:   sign: 0.233 ms   verify: 0.059 ms
+Run  34/ 50:   sign: 0.233 ms   verify: 0.059 ms
+Run  35/ 50:   sign: 0.233 ms   verify: 0.059 ms
+Run  36/ 50:   sign: 0.236 ms   verify: 0.059 ms
+Run  37/ 50:   sign: 0.238 ms   verify: 0.058 ms
+Run  38/ 50:   sign: 0.238 ms   verify: 0.059 ms
+Run  39/ 50:   sign: 0.239 ms   verify: 0.060 ms
+Run  40/ 50:   sign: 0.233 ms   verify: 0.058 ms
+Run  41/ 50:   sign: 0.235 ms   verify: 0.059 ms
+Run  42/ 50:   sign: 0.234 ms   verify: 0.059 ms
+Run  43/ 50:   sign: 0.237 ms   verify: 0.060 ms
+Run  44/ 50:   sign: 0.235 ms   verify: 0.059 ms
+Run  45/ 50:   sign: 0.233 ms   verify: 0.060 ms
+Run  46/ 50:   sign: 0.235 ms   verify: 0.059 ms
+Run  47/ 50:   sign: 0.235 ms   verify: 0.059 ms
+Run  48/ 50:   sign: 0.233 ms   verify: 0.059 ms
+Run  49/ 50:   sign: 0.233 ms   verify: 0.061 ms
+Run  50/ 50:   sign: 0.232 ms   verify: 0.059 ms
+
+✅ Finished 50 executions for: mldsa44
+--------------------------------------------
+=== Stadistics to sign (mldsa44) ===
+Count      : 50
+Min        : 0.232 ms
+Max        : 0.243 ms
+Mean       : 0.235 ms
+Std Dev    : 0.002 ms
+CV         : 0.95 %
+Median(p50): 0.234 ms
+p90        : 0.238 ms
+p95        : 0.239 ms
+p99        : 0.241 ms
+Throughput : 4258 ops/s
+=== Stadistics to verify (mldsa44) ===
+Count      : 50
+Min        : 0.058 ms
+Max        : 0.071 ms
+Mean       : 0.060 ms
+Std Dev    : 0.002 ms
+CV         : 3.36 %
+Median(p50): 0.059 ms
+p90        : 0.060 ms
+p95        : 0.061 ms
+p99        : 0.069 ms
+Throughput : 16790 ops/s
+
+⚙️  Executing 50 times benchmark for: mldsa65
+Run   1/ 50:   sign: 0.378 ms   verify: 0.095 ms
+Run   2/ 50:   sign: 0.380 ms   verify: 0.096 ms
+Run   3/ 50:   sign: 0.392 ms   verify: 0.123 ms
+Run   4/ 50:   sign: 0.399 ms   verify: 0.096 ms
+Run   5/ 50:   sign: 0.383 ms   verify: 0.096 ms
+Run   6/ 50:   sign: 0.381 ms   verify: 0.095 ms
+Run   7/ 50:   sign: 0.382 ms   verify: 0.095 ms
+Run   8/ 50:   sign: 0.381 ms   verify: 0.095 ms
+Run   9/ 50:   sign: 0.380 ms   verify: 0.096 ms
+Run  10/ 50:   sign: 0.383 ms   verify: 0.097 ms
+Run  11/ 50:   sign: 0.380 ms   verify: 0.096 ms
+Run  12/ 50:   sign: 0.385 ms   verify: 0.096 ms
+Run  13/ 50:   sign: 0.380 ms   verify: 0.096 ms
+Run  14/ 50:   sign: 0.384 ms   verify: 0.096 ms
+Run  15/ 50:   sign: 0.381 ms   verify: 0.096 ms
+Run  16/ 50:   sign: 0.382 ms   verify: 0.096 ms
+Run  17/ 50:   sign: 0.387 ms   verify: 0.095 ms
+Run  18/ 50:   sign: 0.381 ms   verify: 0.095 ms
+Run  19/ 50:   sign: 0.381 ms   verify: 0.095 ms
+Run  20/ 50:   sign: 0.381 ms   verify: 0.095 ms
+Run  21/ 50:   sign: 0.383 ms   verify: 0.095 ms
+Run  22/ 50:   sign: 0.381 ms   verify: 0.096 ms
+Run  23/ 50:   sign: 0.383 ms   verify: 0.096 ms
+Run  24/ 50:   sign: 0.382 ms   verify: 0.095 ms
+Run  25/ 50:   sign: 0.379 ms   verify: 0.095 ms
+Run  26/ 50:   sign: 0.382 ms   verify: 0.096 ms
+Run  27/ 50:   sign: 0.382 ms   verify: 0.096 ms
+Run  28/ 50:   sign: 0.381 ms   verify: 0.096 ms
+Run  29/ 50:   sign: 0.381 ms   verify: 0.095 ms
+Run  30/ 50:   sign: 0.378 ms   verify: 0.095 ms
+Run  31/ 50:   sign: 0.382 ms   verify: 0.097 ms
+Run  32/ 50:   sign: 0.381 ms   verify: 0.097 ms
+Run  33/ 50:   sign: 0.386 ms   verify: 0.095 ms
+Run  34/ 50:   sign: 0.377 ms   verify: 0.095 ms
+Run  35/ 50:   sign: 0.382 ms   verify: 0.096 ms
+Run  36/ 50:   sign: 0.378 ms   verify: 0.101 ms
+Run  37/ 50:   sign: 0.378 ms   verify: 0.095 ms
+Run  38/ 50:   sign: 0.382 ms   verify: 0.095 ms
+Run  39/ 50:   sign: 0.386 ms   verify: 0.095 ms
+Run  40/ 50:   sign: 0.383 ms   verify: 0.095 ms
+Run  41/ 50:   sign: 0.384 ms   verify: 0.096 ms
+Run  42/ 50:   sign: 0.402 ms   verify: 0.095 ms
+Run  43/ 50:   sign: 0.384 ms   verify: 0.096 ms
+Run  44/ 50:   sign: 0.380 ms   verify: 0.096 ms
+Run  45/ 50:   sign: 0.385 ms   verify: 0.096 ms
+Run  46/ 50:   sign: 0.383 ms   verify: 0.095 ms
+Run  47/ 50:   sign: 0.399 ms   verify: 0.095 ms
+Run  48/ 50:   sign: 0.385 ms   verify: 0.095 ms
+Run  49/ 50:   sign: 0.385 ms   verify: 0.095 ms
+Run  50/ 50:   sign: 0.389 ms   verify: 0.095 ms
+
+✅ Finished 50 executions for: mldsa65
+--------------------------------------------
+=== Stadistics to sign (mldsa65) ===
+Count      : 50
+Min        : 0.377 ms
+Max        : 0.402 ms
+Mean       : 0.383 ms
+Std Dev    : 0.005 ms
+CV         : 1.34 %
+Median(p50): 0.382 ms
+p90        : 0.387 ms
+p95        : 0.396 ms
+p99        : 0.401 ms
+Throughput : 2609 ops/s
+=== Stadistics to verify (mldsa65) ===
+Count      : 50
+Min        : 0.095 ms
+Max        : 0.123 ms
+Mean       : 0.096 ms
+Std Dev    : 0.004 ms
+CV         : 4.15 %
+Median(p50): 0.096 ms
+p90        : 0.096 ms
+p95        : 0.097 ms
+p99        : 0.112 ms
+Throughput : 10395 ops/s
+
+⚙️  Executing 50 times benchmark for: mldsa87
+Run   1/ 50:   sign: 0.458 ms   verify: 0.160 ms
+Run   2/ 50:   sign: 0.457 ms   verify: 0.157 ms
+Run   3/ 50:   sign: 0.464 ms   verify: 0.156 ms
+Run   4/ 50:   sign: 0.459 ms   verify: 0.157 ms
+Run   5/ 50:   sign: 0.458 ms   verify: 0.157 ms
+Run   6/ 50:   sign: 0.458 ms   verify: 0.157 ms
+Run   7/ 50:   sign: 0.467 ms   verify: 0.157 ms
+Run   8/ 50:   sign: 0.457 ms   verify: 0.158 ms
+Run   9/ 50:   sign: 0.475 ms   verify: 0.158 ms
+Run  10/ 50:   sign: 0.462 ms   verify: 0.163 ms
+Run  11/ 50:   sign: 0.457 ms   verify: 0.156 ms
+Run  12/ 50:   sign: 0.468 ms   verify: 0.156 ms
+Run  13/ 50:   sign: 0.459 ms   verify: 0.157 ms
+Run  14/ 50:   sign: 0.465 ms   verify: 0.156 ms
+Run  15/ 50:   sign: 0.454 ms   verify: 0.156 ms
+Run  16/ 50:   sign: 0.460 ms   verify: 0.155 ms
+Run  17/ 50:   sign: 0.457 ms   verify: 0.156 ms
+Run  18/ 50:   sign: 0.462 ms   verify: 0.190 ms
+Run  19/ 50:   sign: 0.456 ms   verify: 0.156 ms
+Run  20/ 50:   sign: 0.462 ms   verify: 0.156 ms
+Run  21/ 50:   sign: 0.461 ms   verify: 0.156 ms
+Run  22/ 50:   sign: 0.459 ms   verify: 0.155 ms
+Run  23/ 50:   sign: 0.464 ms   verify: 0.156 ms
+Run  24/ 50:   sign: 0.461 ms   verify: 0.156 ms
+Run  25/ 50:   sign: 0.462 ms   verify: 0.156 ms
+Run  26/ 50:   sign: 0.463 ms   verify: 0.156 ms
+Run  27/ 50:   sign: 0.459 ms   verify: 0.156 ms
+Run  28/ 50:   sign: 0.458 ms   verify: 0.155 ms
+Run  29/ 50:   sign: 0.458 ms   verify: 0.156 ms
+Run  30/ 50:   sign: 0.457 ms   verify: 0.156 ms
+Run  31/ 50:   sign: 0.467 ms   verify: 0.156 ms
+Run  32/ 50:   sign: 0.470 ms   verify: 0.158 ms
+Run  33/ 50:   sign: 0.464 ms   verify: 0.157 ms
+Run  34/ 50:   sign: 0.454 ms   verify: 0.156 ms
+Run  35/ 50:   sign: 0.456 ms   verify: 0.156 ms
+Run  36/ 50:   sign: 0.456 ms   verify: 0.156 ms
+Run  37/ 50:   sign: 0.459 ms   verify: 0.156 ms
+Run  38/ 50:   sign: 0.458 ms   verify: 0.160 ms
+Run  39/ 50:   sign: 0.457 ms   verify: 0.156 ms
+Run  40/ 50:   sign: 0.458 ms   verify: 0.163 ms
+Run  41/ 50:   sign: 0.458 ms   verify: 0.157 ms
+Run  42/ 50:   sign: 0.466 ms   verify: 0.156 ms
+Run  43/ 50:   sign: 0.459 ms   verify: 0.155 ms
+Run  44/ 50:   sign: 0.462 ms   verify: 0.156 ms
+Run  45/ 50:   sign: 0.461 ms   verify: 0.156 ms
+Run  46/ 50:   sign: 0.457 ms   verify: 0.156 ms
+Run  47/ 50:   sign: 0.460 ms   verify: 0.159 ms
+Run  48/ 50:   sign: 0.456 ms   verify: 0.155 ms
+Run  49/ 50:   sign: 0.457 ms   verify: 0.156 ms
+Run  50/ 50:   sign: 0.460 ms   verify: 0.157 ms
+
+✅ Finished 50 executions for: mldsa87
+--------------------------------------------
+=== Stadistics to sign (mldsa87) ===
+Count      : 50
+Min        : 0.454 ms
+Max        : 0.475 ms
+Mean       : 0.460 ms
+Std Dev    : 0.004 ms
+CV         : 0.92 %
+Median(p50): 0.459 ms
+p90        : 0.466 ms
+p95        : 0.468 ms
+p99        : 0.473 ms
+Throughput : 2173 ops/s
+=== Stadistics to verify (mldsa87) ===
+Count      : 50
+Min        : 0.155 ms
+Max        : 0.190 ms
+Mean       : 0.157 ms
+Std Dev    : 0.005 ms
+CV         : 3.18 %
+Median(p50): 0.156 ms
+p90        : 0.159 ms
+p95        : 0.162 ms
+p99        : 0.177 ms
+Throughput : 6354 ops/s

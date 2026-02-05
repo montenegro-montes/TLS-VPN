@@ -1,0 +1,16 @@
+\begin{table*}[!ht]
+\centering
+\begin{tabular}{l|rrrrrr|rrrrrr|r}
+\toprule
+& \multicolumn{6}{c}{\bfseries ARM} & \multicolumn{6}{c}{\bfseries x86} & \\
+\cmidrule(lr){2-7} \cmidrule(lr){8-13}
+KEM 			& Mean & SD & Median & IQR & CV & Out.\% 		    & Mean & SD & Median & IQR & CV & Out.\% & SpeedUp \\
+\midrule
+P-521 			& 11.96 $\pm$ 0.21 & 11.93 & 0.12 & 0.02 & 4.30 	& 27.76 $\pm$ 5.15 & 25.32 & 5.12 & 0.19 & 10.61 & 2.32× \\
+mlkem1024 		&  6.89 $\pm$ 0.10 & 6.88 & 0.10 & 0.01 & 2.00 		& 21.16 $\pm$ 3.31 & 22.28 & 2.72 & 0.16 & 19.36 & 3.07× \\
+p521_mlkem1024 	& 16.05 $\pm$ 0.28 & 16.01 & 0.13 & 0.02 & 5.55 	& 47.78 $\pm$ 6.62 & 50.26 & 10.59 & 0.14 & 0.00 & 2.98× \\
+hqc256 			& 40.24 $\pm$ 0.99 & 39.82 & 0.61 & 0.02 & 17.45 	& 137.57 $\pm$ 29.37 & 138.65 & 59.85 & 0.21 & 0.00 & 3.42× \\
+p521_hqc256 	& 49.78 $\pm$ 6.53 & 48.92 & 0.45 & 0.13 & 12.41 	& 165.59 $\pm$ 33.69 & 182.00 & 70.10 & 0.20 & 0.00 & 3.33× \\
+\bottomrule
+\end{tabular}
+\end{table*}

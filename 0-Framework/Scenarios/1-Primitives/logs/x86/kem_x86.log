@@ -1,0 +1,1387 @@
+🚀 Creating new container oqs-openssl-extended with isolation flags...
+0550895f2343dbe041dd1b0735919eeba8fa4e4b576d4f33525e28592cd84279
+📁 Ensuring target directory in the container...
+📤 Copying benchmark_primitives.sh to container...
+▶️ Executing the benchmark script inside the container...
+⚙️  Executing 50 times benchmark for: X25519
+Run   1/ 50:   keygen : 0.048 ms encaps: 0.109 ms decaps: 0.053 ms
+Run   2/ 50:   keygen : 0.047 ms encaps: 0.107 ms decaps: 0.053 ms
+Run   3/ 50:   keygen : 0.046 ms encaps: 0.106 ms decaps: 0.053 ms
+Run   4/ 50:   keygen : 0.048 ms encaps: 0.107 ms decaps: 0.053 ms
+Run   5/ 50:   keygen : 0.048 ms encaps: 0.106 ms decaps: 0.053 ms
+Run   6/ 50:   keygen : 0.047 ms encaps: 0.106 ms decaps: 0.053 ms
+Run   7/ 50:   keygen : 0.047 ms encaps: 0.106 ms decaps: 0.053 ms
+Run   8/ 50:   keygen : 0.047 ms encaps: 0.106 ms decaps: 0.053 ms
+Run   9/ 50:   keygen : 0.047 ms encaps: 0.106 ms decaps: 0.053 ms
+Run  10/ 50:   keygen : 0.047 ms encaps: 0.107 ms decaps: 0.053 ms
+Run  11/ 50:   keygen : 0.048 ms encaps: 0.106 ms decaps: 0.054 ms
+Run  12/ 50:   keygen : 0.047 ms encaps: 0.106 ms decaps: 0.053 ms
+Run  13/ 50:   keygen : 0.047 ms encaps: 0.106 ms decaps: 0.053 ms
+Run  14/ 50:   keygen : 0.047 ms encaps: 0.105 ms decaps: 0.054 ms
+Run  15/ 50:   keygen : 0.047 ms encaps: 0.105 ms decaps: 0.053 ms
+Run  16/ 50:   keygen : 0.047 ms encaps: 0.106 ms decaps: 0.053 ms
+Run  17/ 50:   keygen : 0.048 ms encaps: 0.107 ms decaps: 0.053 ms
+Run  18/ 50:   keygen : 0.047 ms encaps: 0.106 ms decaps: 0.053 ms
+Run  19/ 50:   keygen : 0.048 ms encaps: 0.107 ms decaps: 0.053 ms
+Run  20/ 50:   keygen : 0.047 ms encaps: 0.106 ms decaps: 0.054 ms
+Run  21/ 50:   keygen : 0.047 ms encaps: 0.104 ms decaps: 0.053 ms
+Run  22/ 50:   keygen : 0.047 ms encaps: 0.105 ms decaps: 0.053 ms
+Run  23/ 50:   keygen : 0.047 ms encaps: 0.106 ms decaps: 0.053 ms
+Run  24/ 50:   keygen : 0.048 ms encaps: 0.106 ms decaps: 0.052 ms
+Run  25/ 50:   keygen : 0.047 ms encaps: 0.105 ms decaps: 0.053 ms
+Run  26/ 50:   keygen : 0.048 ms encaps: 0.105 ms decaps: 0.053 ms
+Run  27/ 50:   keygen : 0.048 ms encaps: 0.105 ms decaps: 0.053 ms
+Run  28/ 50:   keygen : 0.053 ms encaps: 0.105 ms decaps: 0.053 ms
+Run  29/ 50:   keygen : 0.048 ms encaps: 0.105 ms decaps: 0.053 ms
+Run  30/ 50:   keygen : 0.048 ms encaps: 0.105 ms decaps: 0.053 ms
+Run  31/ 50:   keygen : 0.047 ms encaps: 0.107 ms decaps: 0.054 ms
+Run  32/ 50:   keygen : 0.047 ms encaps: 0.105 ms decaps: 0.053 ms
+Run  33/ 50:   keygen : 0.047 ms encaps: 0.107 ms decaps: 0.053 ms
+Run  34/ 50:   keygen : 0.047 ms encaps: 0.107 ms decaps: 0.053 ms
+Run  35/ 50:   keygen : 0.047 ms encaps: 0.106 ms decaps: 0.053 ms
+Run  36/ 50:   keygen : 0.048 ms encaps: 0.106 ms decaps: 0.053 ms
+Run  37/ 50:   keygen : 0.047 ms encaps: 0.107 ms decaps: 0.053 ms
+Run  38/ 50:   keygen : 0.047 ms encaps: 0.107 ms decaps: 0.053 ms
+Run  39/ 50:   keygen : 0.046 ms encaps: 0.107 ms decaps: 0.053 ms
+Run  40/ 50:   keygen : 0.047 ms encaps: 0.109 ms decaps: 0.053 ms
+Run  41/ 50:   keygen : 0.047 ms encaps: 0.106 ms decaps: 0.053 ms
+Run  42/ 50:   keygen : 0.046 ms encaps: 0.108 ms decaps: 0.053 ms
+Run  43/ 50:   keygen : 0.047 ms encaps: 0.107 ms decaps: 0.053 ms
+Run  44/ 50:   keygen : 0.047 ms encaps: 0.106 ms decaps: 0.053 ms
+Run  45/ 50:   keygen : 0.047 ms encaps: 0.107 ms decaps: 0.053 ms
+Run  46/ 50:   keygen : 0.048 ms encaps: 0.105 ms decaps: 0.054 ms
+Run  47/ 50:   keygen : 0.047 ms encaps: 0.106 ms decaps: 0.053 ms
+Run  48/ 50:   keygen : 0.047 ms encaps: 0.106 ms decaps: 0.054 ms
+Run  49/ 50:   keygen : 0.047 ms encaps: 0.107 ms decaps: 0.053 ms
+Run  50/ 50:   keygen : 0.047 ms encaps: 0.105 ms decaps: 0.053 ms
+  keygen encaps decaps  
+  0.047 0.105 0.053
+✅ Finished 50 executions for: X25519
+--------------------------------------------
+=== Estadísticas para keygen ===
+Count      : 50
+Min        : 0.046 ms
+Max        : 0.053 ms
+Mean       : 0.047 ms
+Std Dev    : 0.001 ms
+CV         : 2.07 %
+Median(p50): 0.047 ms
+p90        : 0.048 ms
+p95        : 0.048 ms
+p99        : 0.051 ms
+Throughput : 21133 ops/s
+=== Estadísticas para encaps ===
+Count      : 50
+Min        : 0.104 ms
+Max        : 0.109 ms
+Mean       : 0.106 ms
+Std Dev    : 0.001 ms
+CV         : 0.96 %
+Median(p50): 0.106 ms
+p90        : 0.107 ms
+p95        : 0.108 ms
+p99        : 0.109 ms
+Throughput : 9420 ops/s
+=== Estadísticas para decaps ===
+Count      : 50
+Min        : 0.052 ms
+Max        : 0.054 ms
+Mean       : 0.053 ms
+Std Dev    : 0.000 ms
+CV         : 0.69 %
+Median(p50): 0.053 ms
+p90        : 0.054 ms
+p95        : 0.054 ms
+p99        : 0.054 ms
+Throughput : 18832 ops/s
+
+⚙️  Executing 50 times benchmark for: X448
+Run   1/ 50:   keygen : 0.303 ms encaps: 0.553 ms decaps: 0.246 ms
+Run   2/ 50:   keygen : 0.305 ms encaps: 0.550 ms decaps: 0.249 ms
+Run   3/ 50:   keygen : 0.304 ms encaps: 0.548 ms decaps: 0.243 ms
+Run   4/ 50:   keygen : 0.304 ms encaps: 0.546 ms decaps: 0.242 ms
+Run   5/ 50:   keygen : 0.305 ms encaps: 0.560 ms decaps: 0.245 ms
+Run   6/ 50:   keygen : 0.310 ms encaps: 0.551 ms decaps: 0.240 ms
+Run   7/ 50:   keygen : 0.307 ms encaps: 0.549 ms decaps: 0.240 ms
+Run   8/ 50:   keygen : 0.305 ms encaps: 0.558 ms decaps: 0.244 ms
+Run   9/ 50:   keygen : 0.306 ms encaps: 0.556 ms decaps: 0.240 ms
+Run  10/ 50:   keygen : 0.301 ms encaps: 0.552 ms decaps: 0.241 ms
+Run  11/ 50:   keygen : 0.307 ms encaps: 0.550 ms decaps: 0.241 ms
+Run  12/ 50:   keygen : 0.308 ms encaps: 0.558 ms decaps: 0.241 ms
+Run  13/ 50:   keygen : 0.303 ms encaps: 0.547 ms decaps: 0.243 ms
+Run  14/ 50:   keygen : 0.302 ms encaps: 0.549 ms decaps: 0.242 ms
+Run  15/ 50:   keygen : 0.301 ms encaps: 0.554 ms decaps: 0.240 ms
+Run  16/ 50:   keygen : 0.298 ms encaps: 0.553 ms decaps: 0.241 ms
+Run  17/ 50:   keygen : 0.302 ms encaps: 0.564 ms decaps: 0.246 ms
+Run  18/ 50:   keygen : 0.302 ms encaps: 0.562 ms decaps: 0.245 ms
+Run  19/ 50:   keygen : 0.303 ms encaps: 0.558 ms decaps: 0.241 ms
+Run  20/ 50:   keygen : 0.302 ms encaps: 0.559 ms decaps: 0.246 ms
+Run  21/ 50:   keygen : 0.301 ms encaps: 0.548 ms decaps: 0.241 ms
+Run  22/ 50:   keygen : 0.303 ms encaps: 0.556 ms decaps: 0.242 ms
+Run  23/ 50:   keygen : 0.304 ms encaps: 0.555 ms decaps: 0.242 ms
+Run  24/ 50:   keygen : 0.306 ms encaps: 0.551 ms decaps: 0.244 ms
+Run  25/ 50:   keygen : 0.303 ms encaps: 0.546 ms decaps: 0.244 ms
+Run  26/ 50:   keygen : 0.305 ms encaps: 0.552 ms decaps: 0.242 ms
+Run  27/ 50:   keygen : 0.302 ms encaps: 0.548 ms decaps: 0.248 ms
+Run  28/ 50:   keygen : 0.303 ms encaps: 0.555 ms decaps: 0.245 ms
+Run  29/ 50:   keygen : 0.303 ms encaps: 0.552 ms decaps: 0.242 ms
+Run  30/ 50:   keygen : 0.300 ms encaps: 0.546 ms decaps: 0.244 ms
+Run  31/ 50:   keygen : 0.300 ms encaps: 0.545 ms decaps: 0.244 ms
+Run  32/ 50:   keygen : 0.302 ms encaps: 0.548 ms decaps: 0.247 ms
+Run  33/ 50:   keygen : 0.304 ms encaps: 0.544 ms decaps: 0.249 ms
+Run  34/ 50:   keygen : 0.299 ms encaps: 0.555 ms decaps: 0.246 ms
+Run  35/ 50:   keygen : 0.305 ms encaps: 0.551 ms decaps: 0.242 ms
+Run  36/ 50:   keygen : 0.308 ms encaps: 0.546 ms decaps: 0.241 ms
+Run  37/ 50:   keygen : 0.302 ms encaps: 0.556 ms decaps: 0.244 ms
+Run  38/ 50:   keygen : 0.306 ms encaps: 0.557 ms decaps: 0.241 ms
+Run  39/ 50:   keygen : 0.309 ms encaps: 0.548 ms decaps: 0.245 ms
+Run  40/ 50:   keygen : 0.305 ms encaps: 0.548 ms decaps: 0.243 ms
+Run  41/ 50:   keygen : 0.302 ms encaps: 0.552 ms decaps: 0.243 ms
+Run  42/ 50:   keygen : 0.306 ms encaps: 0.554 ms decaps: 0.244 ms
+Run  43/ 50:   keygen : 0.308 ms encaps: 0.551 ms decaps: 0.241 ms
+Run  44/ 50:   keygen : 0.306 ms encaps: 0.547 ms decaps: 0.244 ms
+Run  45/ 50:   keygen : 0.305 ms encaps: 0.563 ms decaps: 0.244 ms
+Run  46/ 50:   keygen : 0.302 ms encaps: 0.554 ms decaps: 0.242 ms
+Run  47/ 50:   keygen : 0.301 ms encaps: 0.565 ms decaps: 0.243 ms
+Run  48/ 50:   keygen : 0.300 ms encaps: 0.558 ms decaps: 0.241 ms
+Run  49/ 50:   keygen : 0.303 ms encaps: 0.553 ms decaps: 0.242 ms
+Run  50/ 50:   keygen : 0.304 ms encaps: 0.558 ms decaps: 0.244 ms
+  keygen encaps decaps  
+  0.304 0.558 0.244
+✅ Finished 50 executions for: X448
+--------------------------------------------
+=== Estadísticas para keygen ===
+Count      : 50
+Min        : 0.298 ms
+Max        : 0.310 ms
+Mean       : 0.304 ms
+Std Dev    : 0.003 ms
+CV         : 0.87 %
+Median(p50): 0.303 ms
+p90        : 0.307 ms
+p95        : 0.308 ms
+p99        : 0.310 ms
+Throughput : 3293 ops/s
+=== Estadísticas para encaps ===
+Count      : 50
+Min        : 0.544 ms
+Max        : 0.565 ms
+Mean       : 0.553 ms
+Std Dev    : 0.005 ms
+CV         : 0.95 %
+Median(p50): 0.552 ms
+p90        : 0.559 ms
+p95        : 0.563 ms
+p99        : 0.565 ms
+Throughput : 1809 ops/s
+=== Estadísticas para decaps ===
+Count      : 50
+Min        : 0.240 ms
+Max        : 0.249 ms
+Mean       : 0.243 ms
+Std Dev    : 0.002 ms
+CV         : 0.94 %
+Median(p50): 0.243 ms
+p90        : 0.246 ms
+p95        : 0.248 ms
+p99        : 0.249 ms
+Throughput : 4112 ops/s
+
+⚙️  Executing 50 times benchmark for: ECP-521
+Run   1/ 50:   keygen : 2.803 ms encaps: 5.672 ms decaps: 2.830 ms
+Run   2/ 50:   keygen : 2.824 ms encaps: 5.770 ms decaps: 2.854 ms
+Run   3/ 50:   keygen : 2.830 ms encaps: 5.672 ms decaps: 2.818 ms
+Run   4/ 50:   keygen : 2.793 ms encaps: 5.786 ms decaps: 2.816 ms
+Run   5/ 50:   keygen : 2.807 ms encaps: 5.650 ms decaps: 2.877 ms
+Run   6/ 50:   keygen : 2.810 ms encaps: 5.692 ms decaps: 2.847 ms
+Run   7/ 50:   keygen : 2.843 ms encaps: 5.669 ms decaps: 2.843 ms
+Run   8/ 50:   keygen : 2.838 ms encaps: 5.653 ms decaps: 2.863 ms
+Run   9/ 50:   keygen : 2.822 ms encaps: 5.627 ms decaps: 2.835 ms
+Run  10/ 50:   keygen : 2.806 ms encaps: 5.672 ms decaps: 2.884 ms
+Run  11/ 50:   keygen : 2.851 ms encaps: 5.666 ms decaps: 2.853 ms
+Run  12/ 50:   keygen : 2.804 ms encaps: 5.718 ms decaps: 2.874 ms
+Run  13/ 50:   keygen : 2.769 ms encaps: 5.624 ms decaps: 2.886 ms
+Run  14/ 50:   keygen : 2.784 ms encaps: 5.646 ms decaps: 2.847 ms
+Run  15/ 50:   keygen : 2.798 ms encaps: 5.701 ms decaps: 2.855 ms
+Run  16/ 50:   keygen : 2.786 ms encaps: 5.605 ms decaps: 2.858 ms
+Run  17/ 50:   keygen : 2.817 ms encaps: 5.649 ms decaps: 2.847 ms
+Run  18/ 50:   keygen : 2.800 ms encaps: 5.640 ms decaps: 2.859 ms
+Run  19/ 50:   keygen : 2.815 ms encaps: 5.624 ms decaps: 2.827 ms
+Run  20/ 50:   keygen : 2.862 ms encaps: 5.627 ms decaps: 2.840 ms
+Run  21/ 50:   keygen : 2.833 ms encaps: 5.602 ms decaps: 2.811 ms
+Run  22/ 50:   keygen : 2.820 ms encaps: 5.612 ms decaps: 2.813 ms
+Run  23/ 50:   keygen : 2.826 ms encaps: 5.617 ms decaps: 2.816 ms
+Run  24/ 50:   keygen : 2.803 ms encaps: 5.718 ms decaps: 2.816 ms
+Run  25/ 50:   keygen : 2.822 ms encaps: 5.701 ms decaps: 2.795 ms
+Run  26/ 50:   keygen : 2.832 ms encaps: 5.695 ms decaps: 2.836 ms
+Run  27/ 50:   keygen : 2.856 ms encaps: 5.711 ms decaps: 2.823 ms
+Run  28/ 50:   keygen : 2.844 ms encaps: 5.701 ms decaps: 2.790 ms
+Run  29/ 50:   keygen : 2.832 ms encaps: 5.637 ms decaps: 2.850 ms
+Run  30/ 50:   keygen : 2.839 ms encaps: 5.650 ms decaps: 2.818 ms
+Run  31/ 50:   keygen : 2.792 ms encaps: 5.621 ms decaps: 2.805 ms
+Run  32/ 50:   keygen : 2.825 ms encaps: 5.750 ms decaps: 2.819 ms
+Run  33/ 50:   keygen : 2.833 ms encaps: 5.705 ms decaps: 2.811 ms
+Run  34/ 50:   keygen : 2.818 ms encaps: 5.796 ms decaps: 2.819 ms
+Run  35/ 50:   keygen : 2.828 ms encaps: 5.794 ms decaps: 2.821 ms
+Run  36/ 50:   keygen : 2.826 ms encaps: 5.692 ms decaps: 2.841 ms
+Run  37/ 50:   keygen : 2.789 ms encaps: 5.656 ms decaps: 2.851 ms
+Run  38/ 50:   keygen : 2.798 ms encaps: 5.692 ms decaps: 2.820 ms
+Run  39/ 50:   keygen : 2.834 ms encaps: 5.710 ms decaps: 2.898 ms
+Run  40/ 50:   keygen : 2.811 ms encaps: 5.679 ms decaps: 2.875 ms
+Run  41/ 50:   keygen : 2.868 ms encaps: 5.720 ms decaps: 2.890 ms
+Run  42/ 50:   keygen : 2.832 ms encaps: 5.708 ms decaps: 2.953 ms
+Run  43/ 50:   keygen : 2.814 ms encaps: 5.685 ms decaps: 2.849 ms
+Run  44/ 50:   keygen : 2.822 ms encaps: 5.630 ms decaps: 2.858 ms
+Run  45/ 50:   keygen : 2.791 ms encaps: 5.612 ms decaps: 2.825 ms
+Run  46/ 50:   keygen : 2.807 ms encaps: 5.631 ms decaps: 2.847 ms
+Run  47/ 50:   keygen : 2.836 ms encaps: 5.637 ms decaps: 2.845 ms
+Run  48/ 50:   keygen : 2.817 ms encaps: 5.682 ms decaps: 2.846 ms
+Run  49/ 50:   keygen : 2.843 ms encaps: 5.675 ms decaps: 2.819 ms
+Run  50/ 50:   keygen : 2.840 ms encaps: 5.711 ms decaps: 2.831 ms
+  keygen encaps decaps  
+  2.840 5.711 2.831
+✅ Finished 50 executions for: ECP-521
+--------------------------------------------
+=== Estadísticas para keygen ===
+Count      : 50
+Min        : 2.769 ms
+Max        : 2.868 ms
+Mean       : 2.820 ms
+Std Dev    : 0.021 ms
+CV         : 0.75 %
+Median(p50): 2.822 ms
+p90        : 2.843 ms
+p95        : 2.854 ms
+p99        : 2.865 ms
+Throughput : 355 ops/s
+=== Estadísticas para encaps ===
+Count      : 50
+Min        : 5.602 ms
+Max        : 5.796 ms
+Mean       : 5.676 ms
+Std Dev    : 0.049 ms
+CV         : 0.86 %
+Median(p50): 5.672 ms
+p90        : 5.723 ms
+p95        : 5.779 ms
+p99        : 5.795 ms
+Throughput : 176 ops/s
+=== Estadísticas para decaps ===
+Count      : 50
+Min        : 2.790 ms
+Max        : 2.953 ms
+Mean       : 2.842 ms
+Std Dev    : 0.030 ms
+CV         : 1.04 %
+Median(p50): 2.842 ms
+p90        : 2.878 ms
+p95        : 2.888 ms
+p99        : 2.926 ms
+Throughput : 352 ops/s
+
+⚙️  Executing 50 times benchmark for: mlkem512
+Run   1/ 50:   keygen : 0.013 ms encaps: 0.012 ms decaps: 0.011 ms
+Run   2/ 50:   keygen : 0.013 ms encaps: 0.012 ms decaps: 0.011 ms
+Run   3/ 50:   keygen : 0.014 ms encaps: 0.012 ms decaps: 0.011 ms
+Run   4/ 50:   keygen : 0.014 ms encaps: 0.012 ms decaps: 0.011 ms
+Run   5/ 50:   keygen : 0.014 ms encaps: 0.012 ms decaps: 0.011 ms
+Run   6/ 50:   keygen : 0.014 ms encaps: 0.012 ms decaps: 0.011 ms
+Run   7/ 50:   keygen : 0.014 ms encaps: 0.012 ms decaps: 0.012 ms
+Run   8/ 50:   keygen : 0.013 ms encaps: 0.012 ms decaps: 0.011 ms
+Run   9/ 50:   keygen : 0.013 ms encaps: 0.012 ms decaps: 0.011 ms
+Run  10/ 50:   keygen : 0.013 ms encaps: 0.012 ms decaps: 0.011 ms
+Run  11/ 50:   keygen : 0.014 ms encaps: 0.012 ms decaps: 0.011 ms
+Run  12/ 50:   keygen : 0.014 ms encaps: 0.012 ms decaps: 0.011 ms
+Run  13/ 50:   keygen : 0.014 ms encaps: 0.012 ms decaps: 0.011 ms
+Run  14/ 50:   keygen : 0.013 ms encaps: 0.012 ms decaps: 0.011 ms
+Run  15/ 50:   keygen : 0.013 ms encaps: 0.012 ms decaps: 0.011 ms
+Run  16/ 50:   keygen : 0.013 ms encaps: 0.012 ms decaps: 0.011 ms
+Run  17/ 50:   keygen : 0.013 ms encaps: 0.012 ms decaps: 0.012 ms
+Run  18/ 50:   keygen : 0.014 ms encaps: 0.012 ms decaps: 0.011 ms
+Run  19/ 50:   keygen : 0.014 ms encaps: 0.012 ms decaps: 0.011 ms
+Run  20/ 50:   keygen : 0.013 ms encaps: 0.012 ms decaps: 0.011 ms
+Run  21/ 50:   keygen : 0.013 ms encaps: 0.012 ms decaps: 0.011 ms
+Run  22/ 50:   keygen : 0.013 ms encaps: 0.012 ms decaps: 0.012 ms
+Run  23/ 50:   keygen : 0.013 ms encaps: 0.012 ms decaps: 0.011 ms
+Run  24/ 50:   keygen : 0.014 ms encaps: 0.012 ms decaps: 0.011 ms
+Run  25/ 50:   keygen : 0.013 ms encaps: 0.012 ms decaps: 0.012 ms
+Run  26/ 50:   keygen : 0.013 ms encaps: 0.012 ms decaps: 0.011 ms
+Run  27/ 50:   keygen : 0.013 ms encaps: 0.012 ms decaps: 0.011 ms
+Run  28/ 50:   keygen : 0.014 ms encaps: 0.012 ms decaps: 0.012 ms
+Run  29/ 50:   keygen : 0.013 ms encaps: 0.012 ms decaps: 0.011 ms
+Run  30/ 50:   keygen : 0.014 ms encaps: 0.012 ms decaps: 0.011 ms
+Run  31/ 50:   keygen : 0.013 ms encaps: 0.012 ms decaps: 0.012 ms
+Run  32/ 50:   keygen : 0.014 ms encaps: 0.012 ms decaps: 0.011 ms
+Run  33/ 50:   keygen : 0.013 ms encaps: 0.012 ms decaps: 0.011 ms
+Run  34/ 50:   keygen : 0.014 ms encaps: 0.013 ms decaps: 0.012 ms
+Run  35/ 50:   keygen : 0.014 ms encaps: 0.012 ms decaps: 0.012 ms
+Run  36/ 50:   keygen : 0.014 ms encaps: 0.012 ms decaps: 0.012 ms
+Run  37/ 50:   keygen : 0.013 ms encaps: 0.012 ms decaps: 0.012 ms
+Run  38/ 50:   keygen : 0.014 ms encaps: 0.013 ms decaps: 0.012 ms
+Run  39/ 50:   keygen : 0.013 ms encaps: 0.012 ms decaps: 0.011 ms
+Run  40/ 50:   keygen : 0.014 ms encaps: 0.012 ms decaps: 0.011 ms
+Run  41/ 50:   keygen : 0.014 ms encaps: 0.012 ms decaps: 0.011 ms
+Run  42/ 50:   keygen : 0.014 ms encaps: 0.012 ms decaps: 0.011 ms
+Run  43/ 50:   keygen : 0.013 ms encaps: 0.012 ms decaps: 0.011 ms
+Run  44/ 50:   keygen : 0.014 ms encaps: 0.012 ms decaps: 0.011 ms
+Run  45/ 50:   keygen : 0.013 ms encaps: 0.012 ms decaps: 0.011 ms
+Run  46/ 50:   keygen : 0.013 ms encaps: 0.012 ms decaps: 0.011 ms
+Run  47/ 50:   keygen : 0.013 ms encaps: 0.012 ms decaps: 0.011 ms
+Run  48/ 50:   keygen : 0.014 ms encaps: 0.012 ms decaps: 0.011 ms
+Run  49/ 50:   keygen : 0.014 ms encaps: 0.013 ms decaps: 0.012 ms
+Run  50/ 50:   keygen : 0.013 ms encaps: 0.012 ms decaps: 0.011 ms
+  keygen encaps decaps  
+  0.013 0.012 0.011
+✅ Finished 50 executions for: mlkem512
+--------------------------------------------
+=== Estadísticas para keygen ===
+Count      : 50
+Min        : 0.013 ms
+Max        : 0.014 ms
+Mean       : 0.013 ms
+Std Dev    : 0.001 ms
+CV         : 3.74 %
+Median(p50): 0.013 ms
+p90        : 0.014 ms
+p95        : 0.014 ms
+p99        : 0.014 ms
+Throughput : 74184 ops/s
+=== Estadísticas para encaps ===
+Count      : 50
+Min        : 0.012 ms
+Max        : 0.013 ms
+Mean       : 0.012 ms
+Std Dev    : 0.000 ms
+CV         : 1.99 %
+Median(p50): 0.012 ms
+p90        : 0.012 ms
+p95        : 0.013 ms
+p99        : 0.013 ms
+Throughput : 82919 ops/s
+=== Estadísticas para decaps ===
+Count      : 50
+Min        : 0.011 ms
+Max        : 0.012 ms
+Mean       : 0.011 ms
+Std Dev    : 0.000 ms
+CV         : 3.84 %
+Median(p50): 0.011 ms
+p90        : 0.012 ms
+p95        : 0.012 ms
+p99        : 0.012 ms
+Throughput : 88968 ops/s
+
+⚙️  Executing 50 times benchmark for: x25519_mlkem512
+Run   1/ 50:   keygen : 0.069 ms encaps: 0.125 ms decaps: 0.122 ms
+Run   2/ 50:   keygen : 0.071 ms encaps: 0.123 ms decaps: 0.123 ms
+Run   3/ 50:   keygen : 0.071 ms encaps: 0.124 ms decaps: 0.123 ms
+Run   4/ 50:   keygen : 0.071 ms encaps: 0.124 ms decaps: 0.121 ms
+Run   5/ 50:   keygen : 0.069 ms encaps: 0.125 ms decaps: 0.123 ms
+Run   6/ 50:   keygen : 0.070 ms encaps: 0.126 ms decaps: 0.125 ms
+Run   7/ 50:   keygen : 0.070 ms encaps: 0.123 ms decaps: 0.125 ms
+Run   8/ 50:   keygen : 0.070 ms encaps: 0.123 ms decaps: 0.123 ms
+Run   9/ 50:   keygen : 0.070 ms encaps: 0.123 ms decaps: 0.122 ms
+Run  10/ 50:   keygen : 0.069 ms encaps: 0.124 ms decaps: 0.122 ms
+Run  11/ 50:   keygen : 0.069 ms encaps: 0.122 ms decaps: 0.122 ms
+Run  12/ 50:   keygen : 0.071 ms encaps: 0.124 ms decaps: 0.123 ms
+Run  13/ 50:   keygen : 0.072 ms encaps: 0.126 ms decaps: 0.122 ms
+Run  14/ 50:   keygen : 0.070 ms encaps: 0.124 ms decaps: 0.121 ms
+Run  15/ 50:   keygen : 0.071 ms encaps: 0.124 ms decaps: 0.122 ms
+Run  16/ 50:   keygen : 0.070 ms encaps: 0.124 ms decaps: 0.123 ms
+Run  17/ 50:   keygen : 0.071 ms encaps: 0.122 ms decaps: 0.121 ms
+Run  18/ 50:   keygen : 0.070 ms encaps: 0.123 ms decaps: 0.122 ms
+Run  19/ 50:   keygen : 0.071 ms encaps: 0.123 ms decaps: 0.121 ms
+Run  20/ 50:   keygen : 0.071 ms encaps: 0.124 ms decaps: 0.120 ms
+Run  21/ 50:   keygen : 0.070 ms encaps: 0.122 ms decaps: 0.120 ms
+Run  22/ 50:   keygen : 0.070 ms encaps: 0.130 ms decaps: 0.125 ms
+Run  23/ 50:   keygen : 0.071 ms encaps: 0.127 ms decaps: 0.124 ms
+Run  24/ 50:   keygen : 0.071 ms encaps: 0.126 ms decaps: 0.121 ms
+Run  25/ 50:   keygen : 0.072 ms encaps: 0.126 ms decaps: 0.121 ms
+Run  26/ 50:   keygen : 0.070 ms encaps: 0.125 ms decaps: 0.119 ms
+Run  27/ 50:   keygen : 0.070 ms encaps: 0.125 ms decaps: 0.122 ms
+Run  28/ 50:   keygen : 0.070 ms encaps: 0.126 ms decaps: 0.121 ms
+Run  29/ 50:   keygen : 0.069 ms encaps: 0.123 ms decaps: 0.121 ms
+Run  30/ 50:   keygen : 0.069 ms encaps: 0.126 ms decaps: 0.121 ms
+Run  31/ 50:   keygen : 0.071 ms encaps: 0.125 ms decaps: 0.122 ms
+Run  32/ 50:   keygen : 0.070 ms encaps: 0.124 ms decaps: 0.121 ms
+Run  33/ 50:   keygen : 0.071 ms encaps: 0.125 ms decaps: 0.123 ms
+Run  34/ 50:   keygen : 0.071 ms encaps: 0.128 ms decaps: 0.123 ms
+Run  35/ 50:   keygen : 0.069 ms encaps: 0.124 ms decaps: 0.123 ms
+Run  36/ 50:   keygen : 0.071 ms encaps: 0.124 ms decaps: 0.124 ms
+Run  37/ 50:   keygen : 0.070 ms encaps: 0.122 ms decaps: 0.123 ms
+Run  38/ 50:   keygen : 0.070 ms encaps: 0.124 ms decaps: 0.123 ms
+Run  39/ 50:   keygen : 0.071 ms encaps: 0.124 ms decaps: 0.130 ms
+Run  40/ 50:   keygen : 0.069 ms encaps: 0.122 ms decaps: 0.124 ms
+Run  41/ 50:   keygen : 0.069 ms encaps: 0.123 ms decaps: 0.123 ms
+Run  42/ 50:   keygen : 0.070 ms encaps: 0.124 ms decaps: 0.122 ms
+Run  43/ 50:   keygen : 0.071 ms encaps: 0.125 ms decaps: 0.125 ms
+Run  44/ 50:   keygen : 0.070 ms encaps: 0.125 ms decaps: 0.124 ms
+Run  45/ 50:   keygen : 0.073 ms encaps: 0.123 ms decaps: 0.121 ms
+Run  46/ 50:   keygen : 0.070 ms encaps: 0.123 ms decaps: 0.119 ms
+Run  47/ 50:   keygen : 0.071 ms encaps: 0.122 ms decaps: 0.120 ms
+Run  48/ 50:   keygen : 0.071 ms encaps: 0.125 ms decaps: 0.121 ms
+Run  49/ 50:   keygen : 0.071 ms encaps: 0.123 ms decaps: 0.121 ms
+Run  50/ 50:   keygen : 0.071 ms encaps: 0.124 ms decaps: 0.121 ms
+  keygen encaps decaps  
+  0.071 0.124 0.121
+✅ Finished 50 executions for: x25519_mlkem512
+--------------------------------------------
+=== Estadísticas para keygen ===
+Count      : 50
+Min        : 0.069 ms
+Max        : 0.073 ms
+Mean       : 0.070 ms
+Std Dev    : 0.001 ms
+CV         : 1.28 %
+Median(p50): 0.070 ms
+p90        : 0.071 ms
+p95        : 0.072 ms
+p99        : 0.073 ms
+Throughput : 14213 ops/s
+=== Estadísticas para encaps ===
+Count      : 50
+Min        : 0.122 ms
+Max        : 0.130 ms
+Mean       : 0.124 ms
+Std Dev    : 0.002 ms
+CV         : 1.29 %
+Median(p50): 0.124 ms
+p90        : 0.126 ms
+p95        : 0.127 ms
+p99        : 0.129 ms
+Throughput : 8050 ops/s
+=== Estadísticas para decaps ===
+Count      : 50
+Min        : 0.119 ms
+Max        : 0.130 ms
+Mean       : 0.122 ms
+Std Dev    : 0.002 ms
+CV         : 1.51 %
+Median(p50): 0.122 ms
+p90        : 0.124 ms
+p95        : 0.125 ms
+p99        : 0.128 ms
+Throughput : 8178 ops/s
+
+⚙️  Executing 50 times benchmark for: mlkem768
+Run   1/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.018 ms
+Run   2/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.018 ms
+Run   3/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.019 ms
+Run   4/ 50:   keygen : 0.022 ms encaps: 0.019 ms decaps: 0.018 ms
+Run   5/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.018 ms
+Run   6/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.018 ms
+Run   7/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.018 ms
+Run   8/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.018 ms
+Run   9/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.019 ms
+Run  10/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.018 ms
+Run  11/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.019 ms
+Run  12/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.018 ms
+Run  13/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.018 ms
+Run  14/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.019 ms
+Run  15/ 50:   keygen : 0.022 ms encaps: 0.019 ms decaps: 0.019 ms
+Run  16/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.019 ms
+Run  17/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.018 ms
+Run  18/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.019 ms
+Run  19/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.018 ms
+Run  20/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.019 ms
+Run  21/ 50:   keygen : 0.022 ms encaps: 0.019 ms decaps: 0.018 ms
+Run  22/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.018 ms
+Run  23/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.018 ms
+Run  24/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.018 ms
+Run  25/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.019 ms
+Run  26/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.019 ms
+Run  27/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.018 ms
+Run  28/ 50:   keygen : 0.022 ms encaps: 0.019 ms decaps: 0.018 ms
+Run  29/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.018 ms
+Run  30/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.018 ms
+Run  31/ 50:   keygen : 0.022 ms encaps: 0.019 ms decaps: 0.019 ms
+Run  32/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.018 ms
+Run  33/ 50:   keygen : 0.022 ms encaps: 0.019 ms decaps: 0.018 ms
+Run  34/ 50:   keygen : 0.022 ms encaps: 0.019 ms decaps: 0.018 ms
+Run  35/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.019 ms
+Run  36/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.018 ms
+Run  37/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.018 ms
+Run  38/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.018 ms
+Run  39/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.019 ms
+Run  40/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.018 ms
+Run  41/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.019 ms
+Run  42/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.018 ms
+Run  43/ 50:   keygen : 0.022 ms encaps: 0.020 ms decaps: 0.019 ms
+Run  44/ 50:   keygen : 0.022 ms encaps: 0.019 ms decaps: 0.019 ms
+Run  45/ 50:   keygen : 0.022 ms encaps: 0.019 ms decaps: 0.019 ms
+Run  46/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.019 ms
+Run  47/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.018 ms
+Run  48/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.018 ms
+Run  49/ 50:   keygen : 0.021 ms encaps: 0.019 ms decaps: 0.018 ms
+Run  50/ 50:   keygen : 0.022 ms encaps: 0.019 ms decaps: 0.019 ms
+  keygen encaps decaps  
+  0.022 0.019 0.019
+✅ Finished 50 executions for: mlkem768
+--------------------------------------------
+=== Estadísticas para keygen ===
+Count      : 50
+Min        : 0.021 ms
+Max        : 0.022 ms
+Mean       : 0.021 ms
+Std Dev    : 0.000 ms
+CV         : 1.97 %
+Median(p50): 0.021 ms
+p90        : 0.022 ms
+p95        : 0.022 ms
+p99        : 0.022 ms
+Throughput : 47125 ops/s
+=== Estadísticas para encaps ===
+Count      : 50
+Min        : 0.019 ms
+Max        : 0.020 ms
+Mean       : 0.019 ms
+Std Dev    : 0.000 ms
+CV         : 0.74 %
+Median(p50): 0.019 ms
+p90        : 0.019 ms
+p95        : 0.019 ms
+p99        : 0.020 ms
+Throughput : 52576 ops/s
+=== Estadísticas para decaps ===
+Count      : 50
+Min        : 0.018 ms
+Max        : 0.019 ms
+Mean       : 0.018 ms
+Std Dev    : 0.000 ms
+CV         : 2.67 %
+Median(p50): 0.018 ms
+p90        : 0.019 ms
+p95        : 0.019 ms
+p99        : 0.019 ms
+Throughput : 54407 ops/s
+
+⚙️  Executing 50 times benchmark for: x448_mlkem768
+Run   1/ 50:   keygen : 0.366 ms encaps: 0.628 ms decaps: 0.627 ms
+Run   2/ 50:   keygen : 0.365 ms encaps: 0.626 ms decaps: 0.638 ms
+Run   3/ 50:   keygen : 0.367 ms encaps: 0.635 ms decaps: 0.638 ms
+Run   4/ 50:   keygen : 0.369 ms encaps: 0.632 ms decaps: 0.633 ms
+Run   5/ 50:   keygen : 0.365 ms encaps: 0.634 ms decaps: 0.641 ms
+Run   6/ 50:   keygen : 0.362 ms encaps: 0.639 ms decaps: 0.638 ms
+Run   7/ 50:   keygen : 0.366 ms encaps: 0.635 ms decaps: 0.631 ms
+Run   8/ 50:   keygen : 0.373 ms encaps: 0.632 ms decaps: 0.635 ms
+Run   9/ 50:   keygen : 0.368 ms encaps: 0.626 ms decaps: 0.628 ms
+Run  10/ 50:   keygen : 0.371 ms encaps: 0.632 ms decaps: 0.625 ms
+Run  11/ 50:   keygen : 0.368 ms encaps: 0.622 ms decaps: 0.631 ms
+Run  12/ 50:   keygen : 0.373 ms encaps: 0.628 ms decaps: 0.636 ms
+Run  13/ 50:   keygen : 0.368 ms encaps: 0.629 ms decaps: 0.630 ms
+Run  14/ 50:   keygen : 0.369 ms encaps: 0.624 ms decaps: 0.631 ms
+Run  15/ 50:   keygen : 0.373 ms encaps: 0.629 ms decaps: 0.636 ms
+Run  16/ 50:   keygen : 0.372 ms encaps: 0.632 ms decaps: 0.628 ms
+Run  17/ 50:   keygen : 0.368 ms encaps: 0.626 ms decaps: 0.635 ms
+Run  18/ 50:   keygen : 0.362 ms encaps: 0.636 ms decaps: 0.627 ms
+Run  19/ 50:   keygen : 0.365 ms encaps: 0.635 ms decaps: 0.621 ms
+Run  20/ 50:   keygen : 0.366 ms encaps: 0.644 ms decaps: 0.627 ms
+Run  21/ 50:   keygen : 0.362 ms encaps: 0.642 ms decaps: 0.627 ms
+Run  22/ 50:   keygen : 0.364 ms encaps: 0.641 ms decaps: 0.632 ms
+Run  23/ 50:   keygen : 0.368 ms encaps: 0.637 ms decaps: 0.628 ms
+Run  24/ 50:   keygen : 0.376 ms encaps: 0.637 ms decaps: 0.633 ms
+Run  25/ 50:   keygen : 0.367 ms encaps: 0.647 ms decaps: 0.636 ms
+Run  26/ 50:   keygen : 0.370 ms encaps: 0.645 ms decaps: 0.635 ms
+Run  27/ 50:   keygen : 0.368 ms encaps: 0.632 ms decaps: 0.624 ms
+Run  28/ 50:   keygen : 0.365 ms encaps: 0.633 ms decaps: 0.633 ms
+Run  29/ 50:   keygen : 0.367 ms encaps: 0.637 ms decaps: 0.641 ms
+Run  30/ 50:   keygen : 0.366 ms encaps: 0.635 ms decaps: 0.638 ms
+Run  31/ 50:   keygen : 0.367 ms encaps: 0.623 ms decaps: 0.635 ms
+Run  32/ 50:   keygen : 0.368 ms encaps: 0.630 ms decaps: 0.638 ms
+Run  33/ 50:   keygen : 0.366 ms encaps: 0.628 ms decaps: 0.628 ms
+Run  34/ 50:   keygen : 0.366 ms encaps: 0.630 ms decaps: 0.633 ms
+Run  35/ 50:   keygen : 0.364 ms encaps: 0.628 ms decaps: 0.633 ms
+Run  36/ 50:   keygen : 0.365 ms encaps: 0.632 ms decaps: 0.643 ms
+Run  37/ 50:   keygen : 0.370 ms encaps: 0.628 ms decaps: 0.639 ms
+Run  38/ 50:   keygen : 0.367 ms encaps: 0.632 ms decaps: 0.632 ms
+Run  39/ 50:   keygen : 0.370 ms encaps: 0.635 ms decaps: 0.624 ms
+Run  40/ 50:   keygen : 0.366 ms encaps: 0.626 ms decaps: 0.630 ms
+Run  41/ 50:   keygen : 0.374 ms encaps: 0.622 ms decaps: 0.635 ms
+Run  42/ 50:   keygen : 0.377 ms encaps: 0.627 ms decaps: 0.628 ms
+Run  43/ 50:   keygen : 0.367 ms encaps: 0.623 ms decaps: 0.630 ms
+Run  44/ 50:   keygen : 0.373 ms encaps: 0.631 ms decaps: 0.624 ms
+Run  45/ 50:   keygen : 0.369 ms encaps: 0.632 ms decaps: 0.626 ms
+Run  46/ 50:   keygen : 0.370 ms encaps: 0.630 ms decaps: 0.636 ms
+Run  47/ 50:   keygen : 0.371 ms encaps: 0.631 ms decaps: 0.627 ms
+Run  48/ 50:   keygen : 0.369 ms encaps: 0.640 ms decaps: 0.625 ms
+Run  49/ 50:   keygen : 0.369 ms encaps: 0.628 ms decaps: 0.622 ms
+Run  50/ 50:   keygen : 0.368 ms encaps: 0.632 ms decaps: 0.635 ms
+  keygen encaps decaps  
+  0.368 0.632 0.635
+✅ Finished 50 executions for: x448_mlkem768
+--------------------------------------------
+=== Estadísticas para keygen ===
+Count      : 50
+Min        : 0.362 ms
+Max        : 0.377 ms
+Mean       : 0.368 ms
+Std Dev    : 0.003 ms
+CV         : 0.91 %
+Median(p50): 0.368 ms
+p90        : 0.373 ms
+p95        : 0.374 ms
+p99        : 0.377 ms
+Throughput : 2717 ops/s
+=== Estadísticas para encaps ===
+Count      : 50
+Min        : 0.622 ms
+Max        : 0.647 ms
+Mean       : 0.632 ms
+Std Dev    : 0.006 ms
+CV         : 0.93 %
+Median(p50): 0.632 ms
+p90        : 0.640 ms
+p95        : 0.643 ms
+p99        : 0.646 ms
+Throughput : 1582 ops/s
+=== Estadísticas para decaps ===
+Count      : 50
+Min        : 0.621 ms
+Max        : 0.643 ms
+Mean       : 0.632 ms
+Std Dev    : 0.005 ms
+CV         : 0.85 %
+Median(p50): 0.632 ms
+p90        : 0.638 ms
+p95        : 0.640 ms
+p99        : 0.642 ms
+Throughput : 1583 ops/s
+
+⚙️  Executing 50 times benchmark for: mlkem1024
+Run   1/ 50:   keygen : 0.030 ms encaps: 0.027 ms decaps: 0.027 ms
+Run   2/ 50:   keygen : 0.029 ms encaps: 0.027 ms decaps: 0.027 ms
+Run   3/ 50:   keygen : 0.029 ms encaps: 0.028 ms decaps: 0.028 ms
+Run   4/ 50:   keygen : 0.029 ms encaps: 0.027 ms decaps: 0.027 ms
+Run   5/ 50:   keygen : 0.030 ms encaps: 0.027 ms decaps: 0.027 ms
+Run   6/ 50:   keygen : 0.029 ms encaps: 0.027 ms decaps: 0.027 ms
+Run   7/ 50:   keygen : 0.030 ms encaps: 0.027 ms decaps: 0.027 ms
+Run   8/ 50:   keygen : 0.030 ms encaps: 0.027 ms decaps: 0.027 ms
+Run   9/ 50:   keygen : 0.029 ms encaps: 0.028 ms decaps: 0.027 ms
+Run  10/ 50:   keygen : 0.029 ms encaps: 0.027 ms decaps: 0.027 ms
+Run  11/ 50:   keygen : 0.029 ms encaps: 0.027 ms decaps: 0.027 ms
+Run  12/ 50:   keygen : 0.031 ms encaps: 0.028 ms decaps: 0.028 ms
+Run  13/ 50:   keygen : 0.029 ms encaps: 0.027 ms decaps: 0.027 ms
+Run  14/ 50:   keygen : 0.029 ms encaps: 0.027 ms decaps: 0.027 ms
+Run  15/ 50:   keygen : 0.029 ms encaps: 0.027 ms decaps: 0.027 ms
+Run  16/ 50:   keygen : 0.029 ms encaps: 0.027 ms decaps: 0.027 ms
+Run  17/ 50:   keygen : 0.030 ms encaps: 0.027 ms decaps: 0.027 ms
+Run  18/ 50:   keygen : 0.030 ms encaps: 0.028 ms decaps: 0.028 ms
+Run  19/ 50:   keygen : 0.030 ms encaps: 0.028 ms decaps: 0.028 ms
+Run  20/ 50:   keygen : 0.029 ms encaps: 0.027 ms decaps: 0.027 ms
+Run  21/ 50:   keygen : 0.029 ms encaps: 0.027 ms decaps: 0.027 ms
+Run  22/ 50:   keygen : 0.030 ms encaps: 0.027 ms decaps: 0.027 ms
+Run  23/ 50:   keygen : 0.030 ms encaps: 0.028 ms decaps: 0.028 ms
+Run  24/ 50:   keygen : 0.029 ms encaps: 0.027 ms decaps: 0.027 ms
+Run  25/ 50:   keygen : 0.029 ms encaps: 0.028 ms decaps: 0.028 ms
+Run  26/ 50:   keygen : 0.030 ms encaps: 0.027 ms decaps: 0.027 ms
+Run  27/ 50:   keygen : 0.030 ms encaps: 0.027 ms decaps: 0.027 ms
+Run  28/ 50:   keygen : 0.030 ms encaps: 0.027 ms decaps: 0.027 ms
+Run  29/ 50:   keygen : 0.029 ms encaps: 0.027 ms decaps: 0.027 ms
+Run  30/ 50:   keygen : 0.030 ms encaps: 0.027 ms decaps: 0.027 ms
+Run  31/ 50:   keygen : 0.030 ms encaps: 0.028 ms decaps: 0.026 ms
+Run  32/ 50:   keygen : 0.029 ms encaps: 0.027 ms decaps: 0.027 ms
+Run  33/ 50:   keygen : 0.029 ms encaps: 0.027 ms decaps: 0.027 ms
+Run  34/ 50:   keygen : 0.029 ms encaps: 0.027 ms decaps: 0.027 ms
+Run  35/ 50:   keygen : 0.029 ms encaps: 0.027 ms decaps: 0.027 ms
+Run  36/ 50:   keygen : 0.029 ms encaps: 0.027 ms decaps: 0.027 ms
+Run  37/ 50:   keygen : 0.030 ms encaps: 0.027 ms decaps: 0.027 ms
+Run  38/ 50:   keygen : 0.029 ms encaps: 0.027 ms decaps: 0.028 ms
+Run  39/ 50:   keygen : 0.030 ms encaps: 0.028 ms decaps: 0.028 ms
+Run  40/ 50:   keygen : 0.029 ms encaps: 0.027 ms decaps: 0.027 ms
+Run  41/ 50:   keygen : 0.030 ms encaps: 0.027 ms decaps: 0.027 ms
+Run  42/ 50:   keygen : 0.029 ms encaps: 0.027 ms decaps: 0.027 ms
+Run  43/ 50:   keygen : 0.030 ms encaps: 0.028 ms decaps: 0.028 ms
+Run  44/ 50:   keygen : 0.029 ms encaps: 0.027 ms decaps: 0.027 ms
+Run  45/ 50:   keygen : 0.030 ms encaps: 0.027 ms decaps: 0.027 ms
+Run  46/ 50:   keygen : 0.029 ms encaps: 0.028 ms decaps: 0.028 ms
+Run  47/ 50:   keygen : 0.030 ms encaps: 0.027 ms decaps: 0.027 ms
+Run  48/ 50:   keygen : 0.029 ms encaps: 0.027 ms decaps: 0.028 ms
+Run  49/ 50:   keygen : 0.030 ms encaps: 0.027 ms decaps: 0.027 ms
+Run  50/ 50:   keygen : 0.029 ms encaps: 0.027 ms decaps: 0.027 ms
+  keygen encaps decaps  
+  0.029 0.027 0.027
+✅ Finished 50 executions for: mlkem1024
+--------------------------------------------
+=== Estadísticas para keygen ===
+Count      : 50
+Min        : 0.029 ms
+Max        : 0.031 ms
+Mean       : 0.029 ms
+Std Dev    : 0.001 ms
+CV         : 1.84 %
+Median(p50): 0.029 ms
+p90        : 0.030 ms
+p95        : 0.030 ms
+p99        : 0.031 ms
+Throughput : 33944 ops/s
+=== Estadísticas para encaps ===
+Count      : 50
+Min        : 0.027 ms
+Max        : 0.028 ms
+Mean       : 0.027 ms
+Std Dev    : 0.000 ms
+CV         : 1.54 %
+Median(p50): 0.027 ms
+p90        : 0.028 ms
+p95        : 0.028 ms
+p99        : 0.028 ms
+Throughput : 36738 ops/s
+=== Estadísticas para decaps ===
+Count      : 50
+Min        : 0.026 ms
+Max        : 0.028 ms
+Mean       : 0.027 ms
+Std Dev    : 0.000 ms
+CV         : 1.66 %
+Median(p50): 0.027 ms
+p90        : 0.028 ms
+p95        : 0.028 ms
+p99        : 0.028 ms
+Throughput : 36765 ops/s
+
+⚙️  Executing 50 times benchmark for: p521_mlkem1024
+Run   1/ 50:   keygen : 3.984 ms encaps: 5.833 ms decaps: 3.336 ms
+Run   2/ 50:   keygen : 3.939 ms encaps: 5.750 ms decaps: 3.309 ms
+Run   3/ 50:   keygen : 3.965 ms encaps: 5.760 ms decaps: 3.286 ms
+Run   4/ 50:   keygen : 4.034 ms encaps: 5.756 ms decaps: 3.317 ms
+Run   5/ 50:   keygen : 3.994 ms encaps: 5.813 ms decaps: 3.284 ms
+Run   6/ 50:   keygen : 3.983 ms encaps: 5.774 ms decaps: 3.283 ms
+Run   7/ 50:   keygen : 3.960 ms encaps: 5.807 ms decaps: 3.300 ms
+Run   8/ 50:   keygen : 4.010 ms encaps: 5.783 ms decaps: 3.250 ms
+Run   9/ 50:   keygen : 4.040 ms encaps: 5.879 ms decaps: 3.275 ms
+Run  10/ 50:   keygen : 4.026 ms encaps: 5.837 ms decaps: 3.316 ms
+Run  11/ 50:   keygen : 3.971 ms encaps: 5.757 ms decaps: 3.301 ms
+Run  12/ 50:   keygen : 3.929 ms encaps: 5.705 ms decaps: 3.327 ms
+Run  13/ 50:   keygen : 3.968 ms encaps: 5.790 ms decaps: 3.312 ms
+Run  14/ 50:   keygen : 3.984 ms encaps: 5.814 ms decaps: 3.264 ms
+Run  15/ 50:   keygen : 3.943 ms encaps: 5.858 ms decaps: 3.303 ms
+Run  16/ 50:   keygen : 3.957 ms encaps: 6.016 ms decaps: 3.336 ms
+Run  17/ 50:   keygen : 3.964 ms encaps: 5.767 ms decaps: 3.238 ms
+Run  18/ 50:   keygen : 3.925 ms encaps: 5.879 ms decaps: 3.287 ms
+Run  19/ 50:   keygen : 3.976 ms encaps: 5.913 ms decaps: 3.290 ms
+Run  20/ 50:   keygen : 3.942 ms encaps: 5.914 ms decaps: 3.327 ms
+Run  21/ 50:   keygen : 3.975 ms encaps: 5.903 ms decaps: 3.312 ms
+Run  22/ 50:   keygen : 3.946 ms encaps: 5.817 ms decaps: 3.270 ms
+Run  23/ 50:   keygen : 3.922 ms encaps: 5.872 ms decaps: 3.311 ms
+Run  24/ 50:   keygen : 3.911 ms encaps: 5.956 ms decaps: 3.274 ms
+Run  25/ 50:   keygen : 3.923 ms encaps: 5.817 ms decaps: 3.364 ms
+Run  26/ 50:   keygen : 3.981 ms encaps: 5.817 ms decaps: 3.321 ms
+Run  27/ 50:   keygen : 3.976 ms encaps: 5.741 ms decaps: 3.343 ms
+Run  28/ 50:   keygen : 3.987 ms encaps: 5.879 ms decaps: 3.326 ms
+Run  29/ 50:   keygen : 3.959 ms encaps: 5.710 ms decaps: 3.319 ms
+Run  30/ 50:   keygen : 3.934 ms encaps: 5.770 ms decaps: 3.353 ms
+Run  31/ 50:   keygen : 4.003 ms encaps: 5.747 ms decaps: 3.350 ms
+Run  32/ 50:   keygen : 3.960 ms encaps: 5.777 ms decaps: 3.307 ms
+Run  33/ 50:   keygen : 3.923 ms encaps: 5.814 ms decaps: 3.380 ms
+Run  34/ 50:   keygen : 3.964 ms encaps: 5.737 ms decaps: 3.319 ms
+Run  35/ 50:   keygen : 3.973 ms encaps: 5.796 ms decaps: 3.296 ms
+Run  36/ 50:   keygen : 3.987 ms encaps: 5.730 ms decaps: 3.330 ms
+Run  37/ 50:   keygen : 3.994 ms encaps: 5.770 ms decaps: 3.313 ms
+Run  38/ 50:   keygen : 4.013 ms encaps: 5.721 ms decaps: 3.316 ms
+Run  39/ 50:   keygen : 3.943 ms encaps: 5.796 ms decaps: 3.292 ms
+Run  40/ 50:   keygen : 4.014 ms encaps: 5.734 ms decaps: 3.297 ms
+Run  41/ 50:   keygen : 4.044 ms encaps: 5.872 ms decaps: 3.288 ms
+Run  42/ 50:   keygen : 4.006 ms encaps: 5.796 ms decaps: 3.295 ms
+Run  43/ 50:   keygen : 4.002 ms encaps: 5.811 ms decaps: 3.301 ms
+Run  44/ 50:   keygen : 4.034 ms encaps: 5.787 ms decaps: 3.327 ms
+Run  45/ 50:   keygen : 3.962 ms encaps: 5.981 ms decaps: 3.294 ms
+Run  46/ 50:   keygen : 3.928 ms encaps: 5.878 ms decaps: 3.270 ms
+Run  47/ 50:   keygen : 3.976 ms encaps: 5.837 ms decaps: 3.271 ms
+Run  48/ 50:   keygen : 3.949 ms encaps: 5.814 ms decaps: 3.284 ms
+Run  49/ 50:   keygen : 3.960 ms encaps: 5.854 ms decaps: 3.271 ms
+Run  50/ 50:   keygen : 3.924 ms encaps: 5.837 ms decaps: 3.264 ms
+  keygen encaps decaps  
+  3.924 5.837 3.264
+✅ Finished 50 executions for: p521_mlkem1024
+--------------------------------------------
+=== Estadísticas para keygen ===
+Count      : 50
+Min        : 3.911 ms
+Max        : 4.044 ms
+Mean       : 3.971 ms
+Std Dev    : 0.034 ms
+CV         : 0.86 %
+Median(p50): 3.970 ms
+p90        : 4.015 ms
+p95        : 4.034 ms
+p99        : 4.042 ms
+Throughput : 252 ops/s
+=== Estadísticas para encaps ===
+Count      : 50
+Min        : 5.705 ms
+Max        : 6.016 ms
+Mean       : 5.816 ms
+Std Dev    : 0.069 ms
+CV         : 1.18 %
+Median(p50): 5.812 ms
+p90        : 5.904 ms
+p95        : 5.937 ms
+p99        : 5.999 ms
+Throughput : 172 ops/s
+=== Estadísticas para decaps ===
+Count      : 50
+Min        : 3.238 ms
+Max        : 3.380 ms
+Mean       : 3.304 ms
+Std Dev    : 0.029 ms
+CV         : 0.88 %
+Median(p50): 3.302 ms
+p90        : 3.337 ms
+p95        : 3.352 ms
+p99        : 3.372 ms
+Throughput : 303 ops/s
+
+⚙️  Executing 50 times benchmark for: hqc128
+Run   1/ 50:   keygen : 2.550 ms encaps: 5.241 ms decaps: 8.252 ms
+Run   2/ 50:   keygen : 2.551 ms encaps: 5.269 ms decaps: 8.224 ms
+Run   3/ 50:   keygen : 2.577 ms encaps: 5.181 ms decaps: 8.212 ms
+Run   4/ 50:   keygen : 2.601 ms encaps: 5.139 ms decaps: 8.342 ms
+Run   5/ 50:   keygen : 2.543 ms encaps: 5.225 ms decaps: 8.210 ms
+Run   6/ 50:   keygen : 2.562 ms encaps: 5.128 ms decaps: 8.285 ms
+Run   7/ 50:   keygen : 2.557 ms encaps: 5.155 ms decaps: 8.264 ms
+Run   8/ 50:   keygen : 2.558 ms encaps: 5.089 ms decaps: 8.314 ms
+Run   9/ 50:   keygen : 2.563 ms encaps: 5.155 ms decaps: 8.319 ms
+Run  10/ 50:   keygen : 2.523 ms encaps: 5.219 ms decaps: 8.252 ms
+Run  11/ 50:   keygen : 2.555 ms encaps: 5.168 ms decaps: 8.299 ms
+Run  12/ 50:   keygen : 2.571 ms encaps: 5.236 ms decaps: 8.426 ms
+Run  13/ 50:   keygen : 2.546 ms encaps: 5.184 ms decaps: 8.382 ms
+Run  14/ 50:   keygen : 2.557 ms encaps: 5.139 ms decaps: 8.293 ms
+Run  15/ 50:   keygen : 2.525 ms encaps: 5.115 ms decaps: 8.218 ms
+Run  16/ 50:   keygen : 2.559 ms encaps: 5.102 ms decaps: 8.218 ms
+Run  17/ 50:   keygen : 2.573 ms encaps: 5.200 ms decaps: 8.218 ms
+Run  18/ 50:   keygen : 2.591 ms encaps: 5.216 ms decaps: 8.205 ms
+Run  19/ 50:   keygen : 2.580 ms encaps: 5.160 ms decaps: 8.278 ms
+Run  20/ 50:   keygen : 2.604 ms encaps: 5.120 ms decaps: 8.375 ms
+Run  21/ 50:   keygen : 2.588 ms encaps: 5.176 ms decaps: 8.239 ms
+Run  22/ 50:   keygen : 2.612 ms encaps: 5.165 ms decaps: 8.205 ms
+Run  23/ 50:   keygen : 2.546 ms encaps: 5.173 ms decaps: 8.210 ms
+Run  24/ 50:   keygen : 2.597 ms encaps: 5.227 ms decaps: 8.170 ms
+Run  25/ 50:   keygen : 2.558 ms encaps: 5.131 ms decaps: 8.237 ms
+Run  26/ 50:   keygen : 2.570 ms encaps: 5.176 ms decaps: 8.230 ms
+Run  27/ 50:   keygen : 2.578 ms encaps: 5.155 ms decaps: 8.230 ms
+Run  28/ 50:   keygen : 2.612 ms encaps: 5.200 ms decaps: 8.230 ms
+Run  29/ 50:   keygen : 2.567 ms encaps: 5.200 ms decaps: 8.224 ms
+Run  30/ 50:   keygen : 2.532 ms encaps: 5.192 ms decaps: 8.163 ms
+Run  31/ 50:   keygen : 2.551 ms encaps: 5.327 ms decaps: 8.237 ms
+Run  32/ 50:   keygen : 2.530 ms encaps: 5.255 ms decaps: 8.237 ms
+Run  33/ 50:   keygen : 2.534 ms encaps: 5.285 ms decaps: 8.280 ms
+Run  34/ 50:   keygen : 2.556 ms encaps: 5.195 ms decaps: 8.230 ms
+Run  35/ 50:   keygen : 2.537 ms encaps: 5.152 ms decaps: 8.280 ms
+Run  36/ 50:   keygen : 2.568 ms encaps: 5.168 ms decaps: 8.251 ms
+Run  37/ 50:   keygen : 2.557 ms encaps: 5.120 ms decaps: 8.252 ms
+Run  38/ 50:   keygen : 2.521 ms encaps: 5.179 ms decaps: 8.274 ms
+Run  39/ 50:   keygen : 2.561 ms encaps: 5.149 ms decaps: 8.286 ms
+Run  40/ 50:   keygen : 2.545 ms encaps: 5.238 ms decaps: 8.319 ms
+Run  41/ 50:   keygen : 2.574 ms encaps: 5.136 ms decaps: 8.396 ms
+Run  42/ 50:   keygen : 2.541 ms encaps: 5.157 ms decaps: 8.210 ms
+Run  43/ 50:   keygen : 2.543 ms encaps: 5.112 ms decaps: 8.541 ms
+Run  44/ 50:   keygen : 2.552 ms encaps: 5.211 ms decaps: 8.198 ms
+Run  45/ 50:   keygen : 2.568 ms encaps: 5.176 ms decaps: 8.361 ms
+Run  46/ 50:   keygen : 2.544 ms encaps: 5.224 ms decaps: 8.190 ms
+Run  47/ 50:   keygen : 2.573 ms encaps: 5.192 ms decaps: 8.203 ms
+Run  48/ 50:   keygen : 2.538 ms encaps: 5.128 ms decaps: 8.170 ms
+Run  49/ 50:   keygen : 2.545 ms encaps: 5.128 ms decaps: 8.170 ms
+Run  50/ 50:   keygen : 2.563 ms encaps: 5.195 ms decaps: 8.183 ms
+  keygen encaps decaps  
+  2.563 5.195 8.183
+✅ Finished 50 executions for: hqc128
+--------------------------------------------
+=== Estadísticas para keygen ===
+Count      : 50
+Min        : 2.521 ms
+Max        : 2.612 ms
+Mean       : 2.560 ms
+Std Dev    : 0.022 ms
+CV         : 0.87 %
+Median(p50): 2.558 ms
+p90        : 2.592 ms
+p95        : 2.603 ms
+p99        : 2.612 ms
+Throughput : 391 ops/s
+=== Estadísticas para encaps ===
+Count      : 50
+Min        : 5.089 ms
+Max        : 5.327 ms
+Mean       : 5.179 ms
+Std Dev    : 0.049 ms
+CV         : 0.95 %
+Median(p50): 5.176 ms
+p90        : 5.238 ms
+p95        : 5.263 ms
+p99        : 5.306 ms
+Throughput : 193 ops/s
+=== Estadísticas para decaps ===
+Count      : 50
+Min        : 8.163 ms
+Max        : 8.541 ms
+Mean       : 8.260 ms
+Std Dev    : 0.074 ms
+CV         : 0.89 %
+Median(p50): 8.237 ms
+p90        : 8.362 ms
+p95        : 8.390 ms
+p99        : 8.485 ms
+Throughput : 121 ops/s
+
+⚙️  Executing 50 times benchmark for: x25519_hqc128
+Run   1/ 50:   keygen : 2.619 ms encaps: 5.247 ms decaps: 8.252 ms
+Run   2/ 50:   keygen : 2.652 ms encaps: 5.263 ms decaps: 8.264 ms
+Run   3/ 50:   keygen : 2.596 ms encaps: 5.203 ms decaps: 8.326 ms
+Run   4/ 50:   keygen : 2.610 ms encaps: 5.249 ms decaps: 8.375 ms
+Run   5/ 50:   keygen : 2.645 ms encaps: 5.297 ms decaps: 8.292 ms
+Run   6/ 50:   keygen : 2.643 ms encaps: 5.219 ms decaps: 8.447 ms
+Run   7/ 50:   keygen : 2.631 ms encaps: 5.339 ms decaps: 8.292 ms
+Run   8/ 50:   keygen : 2.623 ms encaps: 5.414 ms decaps: 8.280 ms
+Run   9/ 50:   keygen : 2.610 ms encaps: 5.328 ms decaps: 8.382 ms
+Run  10/ 50:   keygen : 2.589 ms encaps: 5.339 ms decaps: 8.335 ms
+Run  11/ 50:   keygen : 2.601 ms encaps: 5.285 ms decaps: 8.342 ms
+Run  12/ 50:   keygen : 2.589 ms encaps: 5.291 ms decaps: 8.454 ms
+Run  13/ 50:   keygen : 2.639 ms encaps: 5.390 ms decaps: 8.446 ms
+Run  14/ 50:   keygen : 2.641 ms encaps: 5.302 ms decaps: 8.347 ms
+Run  15/ 50:   keygen : 2.605 ms encaps: 5.402 ms decaps: 8.340 ms
+Run  16/ 50:   keygen : 2.669 ms encaps: 5.397 ms decaps: 8.258 ms
+Run  17/ 50:   keygen : 2.599 ms encaps: 5.313 ms decaps: 8.439 ms
+Run  18/ 50:   keygen : 2.608 ms encaps: 5.280 ms decaps: 8.476 ms
+Run  19/ 50:   keygen : 2.602 ms encaps: 5.252 ms decaps: 8.446 ms
+Run  20/ 50:   keygen : 2.636 ms encaps: 5.280 ms decaps: 8.467 ms
+Run  21/ 50:   keygen : 2.622 ms encaps: 5.305 ms decaps: 8.447 ms
+Run  22/ 50:   keygen : 2.639 ms encaps: 5.322 ms decaps: 8.569 ms
+Run  23/ 50:   keygen : 2.636 ms encaps: 5.297 ms decaps: 8.636 ms
+Run  24/ 50:   keygen : 2.575 ms encaps: 5.350 ms decaps: 8.453 ms
+Run  25/ 50:   keygen : 2.589 ms encaps: 5.311 ms decaps: 8.512 ms
+Run  26/ 50:   keygen : 2.616 ms encaps: 5.311 ms decaps: 8.370 ms
+Run  27/ 50:   keygen : 2.607 ms encaps: 5.249 ms decaps: 8.340 ms
+Run  28/ 50:   keygen : 2.606 ms encaps: 5.328 ms decaps: 8.446 ms
+Run  29/ 50:   keygen : 2.599 ms encaps: 5.322 ms decaps: 8.454 ms
+Run  30/ 50:   keygen : 2.597 ms encaps: 5.268 ms decaps: 8.299 ms
+Run  31/ 50:   keygen : 2.613 ms encaps: 5.271 ms decaps: 8.285 ms
+Run  32/ 50:   keygen : 2.674 ms encaps: 5.368 ms decaps: 8.239 ms
+Run  33/ 50:   keygen : 2.643 ms encaps: 5.241 ms decaps: 8.271 ms
+Run  34/ 50:   keygen : 2.685 ms encaps: 5.269 ms decaps: 8.377 ms
+Run  35/ 50:   keygen : 2.631 ms encaps: 5.263 ms decaps: 8.293 ms
+Run  36/ 50:   keygen : 2.636 ms encaps: 5.258 ms decaps: 8.410 ms
+Run  37/ 50:   keygen : 2.650 ms encaps: 5.225 ms decaps: 8.361 ms
+Run  38/ 50:   keygen : 2.625 ms encaps: 5.269 ms decaps: 8.384 ms
+Run  39/ 50:   keygen : 2.610 ms encaps: 5.219 ms decaps: 8.313 ms
+Run  40/ 50:   keygen : 2.596 ms encaps: 5.344 ms decaps: 8.432 ms
+Run  41/ 50:   keygen : 2.615 ms encaps: 5.339 ms decaps: 8.326 ms
+Run  42/ 50:   keygen : 2.603 ms encaps: 5.308 ms decaps: 8.237 ms
+Run  43/ 50:   keygen : 2.605 ms encaps: 5.291 ms decaps: 8.342 ms
+Run  44/ 50:   keygen : 2.612 ms encaps: 5.299 ms decaps: 8.368 ms
+Run  45/ 50:   keygen : 2.618 ms encaps: 5.371 ms decaps: 8.293 ms
+Run  46/ 50:   keygen : 2.605 ms encaps: 5.271 ms decaps: 8.300 ms
+Run  47/ 50:   keygen : 2.599 ms encaps: 5.299 ms decaps: 8.319 ms
+Run  48/ 50:   keygen : 2.614 ms encaps: 5.322 ms decaps: 8.285 ms
+Run  49/ 50:   keygen : 2.601 ms encaps: 5.385 ms decaps: 8.356 ms
+Run  50/ 50:   keygen : 2.621 ms encaps: 5.288 ms decaps: 8.375 ms
+  keygen encaps decaps  
+  2.621 5.288 8.375
+✅ Finished 50 executions for: x25519_hqc128
+--------------------------------------------
+=== Estadísticas para keygen ===
+Count      : 50
+Min        : 2.575 ms
+Max        : 2.685 ms
+Mean       : 2.619 ms
+Std Dev    : 0.023 ms
+CV         : 0.88 %
+Median(p50): 2.614 ms
+p90        : 2.646 ms
+p95        : 2.661 ms
+p99        : 2.680 ms
+Throughput : 382 ops/s
+=== Estadísticas para encaps ===
+Count      : 50
+Min        : 5.203 ms
+Max        : 5.414 ms
+Mean       : 5.301 ms
+Std Dev    : 0.050 ms
+CV         : 0.94 %
+Median(p50): 5.298 ms
+p90        : 5.372 ms
+p95        : 5.394 ms
+p99        : 5.408 ms
+Throughput : 189 ops/s
+=== Estadísticas para decaps ===
+Count      : 50
+Min        : 8.237 ms
+Max        : 8.636 ms
+Mean       : 8.367 ms
+Std Dev    : 0.086 ms
+CV         : 1.03 %
+Median(p50): 8.351 ms
+p90        : 8.455 ms
+p95        : 8.496 ms
+p99        : 8.603 ms
+Throughput : 120 ops/s
+
+⚙️  Executing 50 times benchmark for: hqc192
+Run   1/ 50:   keygen : 7.825 ms encaps: 15.798 ms decaps: 24.145 ms
+Run   2/ 50:   keygen : 7.880 ms encaps: 15.592 ms decaps: 24.380 ms
+Run   3/ 50:   keygen : 7.800 ms encaps: 15.616 ms decaps: 24.439 ms
+Run   4/ 50:   keygen : 7.788 ms encaps: 15.519 ms decaps: 24.474 ms
+Run   5/ 50:   keygen : 7.770 ms encaps: 15.990 ms decaps: 24.595 ms
+Run   6/ 50:   keygen : 7.778 ms encaps: 15.723 ms decaps: 24.203 ms
+Run   7/ 50:   keygen : 7.831 ms encaps: 15.789 ms decaps: 24.155 ms
+Run   8/ 50:   keygen : 7.862 ms encaps: 15.823 ms decaps: 24.595 ms
+Run   9/ 50:   keygen : 7.773 ms encaps: 15.723 ms decaps: 24.450 ms
+Run  10/ 50:   keygen : 7.820 ms encaps: 15.601 ms decaps: 24.404 ms
+Run  11/ 50:   keygen : 7.788 ms encaps: 15.889 ms decaps: 24.053 ms
+Run  12/ 50:   keygen : 7.825 ms encaps: 15.939 ms decaps: 24.120 ms
+Run  13/ 50:   keygen : 7.851 ms encaps: 15.665 ms decaps: 24.510 ms
+Run  14/ 50:   keygen : 7.963 ms encaps: 15.764 ms decaps: 24.390 ms
+Run  15/ 50:   keygen : 7.862 ms encaps: 15.789 ms decaps: 24.087 ms
+Run  16/ 50:   keygen : 7.874 ms encaps: 15.690 ms decaps: 24.262 ms
+Run  17/ 50:   keygen : 7.812 ms encaps: 15.665 ms decaps: 24.595 ms
+Run  18/ 50:   keygen : 7.886 ms encaps: 15.641 ms decaps: 24.237 ms
+Run  19/ 50:   keygen : 7.770 ms encaps: 15.690 ms decaps: 23.777 ms
+Run  20/ 50:   keygen : 7.831 ms encaps: 15.448 ms decaps: 24.583 ms
+Run  21/ 50:   keygen : 7.894 ms encaps: 15.480 ms decaps: 23.971 ms
+Run  22/ 50:   keygen : 7.869 ms encaps: 15.528 ms decaps: 23.857 ms
+Run  23/ 50:   keygen : 7.776 ms encaps: 15.641 ms decaps: 24.474 ms
+Run  24/ 50:   keygen : 7.869 ms encaps: 15.641 ms decaps: 24.038 ms
+Run  25/ 50:   keygen : 7.806 ms encaps: 15.789 ms decaps: 24.145 ms
+Run  26/ 50:   keygen : 7.831 ms encaps: 15.839 ms decaps: 24.005 ms
+Run  27/ 50:   keygen : 7.857 ms encaps: 16.042 ms decaps: 24.005 ms
+Run  28/ 50:   keygen : 8.034 ms encaps: 15.974 ms decaps: 23.866 ms
+Run  29/ 50:   keygen : 7.837 ms encaps: 15.764 ms decaps: 24.559 ms
+Run  30/ 50:   keygen : 7.911 ms encaps: 15.699 ms decaps: 24.237 ms
+Run  31/ 50:   keygen : 7.849 ms encaps: 15.690 ms decaps: 23.890 ms
+Run  32/ 50:   keygen : 8.040 ms encaps: 15.773 ms decaps: 24.005 ms
+Run  33/ 50:   keygen : 7.849 ms encaps: 15.714 ms decaps: 24.777 ms
+Run  34/ 50:   keygen : 7.746 ms encaps: 15.773 ms decaps: 24.087 ms
+Run  35/ 50:   keygen : 7.770 ms encaps: 15.641 ms decaps: 24.179 ms
+Run  36/ 50:   keygen : 7.794 ms encaps: 15.823 ms decaps: 24.096 ms
+Run  37/ 50:   keygen : 7.843 ms encaps: 15.714 ms decaps: 24.120 ms
+Run  38/ 50:   keygen : 7.740 ms encaps: 15.839 ms decaps: 24.038 ms
+Run  39/ 50:   keygen : 7.918 ms encaps: 15.699 ms decaps: 24.096 ms
+Run  40/ 50:   keygen : 7.796 ms encaps: 15.674 ms decaps: 24.262 ms
+Run  41/ 50:   keygen : 7.776 ms encaps: 15.714 ms decaps: 24.005 ms
+Run  42/ 50:   keygen : 7.806 ms encaps: 15.681 ms decaps: 24.450 ms
+Run  43/ 50:   keygen : 7.899 ms encaps: 15.764 ms decaps: 24.644 ms
+Run  44/ 50:   keygen : 7.843 ms encaps: 15.519 ms decaps: 24.619 ms
+Run  45/ 50:   keygen : 7.930 ms encaps: 15.601 ms decaps: 24.320 ms
+Run  46/ 50:   keygen : 7.704 ms encaps: 15.471 ms decaps: 24.213 ms
+Run  47/ 50:   keygen : 7.802 ms encaps: 15.616 ms decaps: 24.320 ms
+Run  48/ 50:   keygen : 7.770 ms encaps: 15.690 ms decaps: 24.296 ms
+Run  49/ 50:   keygen : 7.806 ms encaps: 15.690 ms decaps: 24.179 ms
+Run  50/ 50:   keygen : 7.994 ms encaps: 15.814 ms decaps: 24.655 ms
+  keygen encaps decaps  
+  7.994 15.814 24.655
+✅ Finished 50 executions for: hqc192
+--------------------------------------------
+=== Estadísticas para keygen ===
+Count      : 50
+Min        : 7.704 ms
+Max        : 8.040 ms
+Mean       : 7.839 ms
+Std Dev    : 0.070 ms
+CV         : 0.90 %
+Median(p50): 7.831 ms
+p90        : 7.919 ms
+p95        : 7.980 ms
+p99        : 8.037 ms
+Throughput : 128 ops/s
+=== Estadísticas para encaps ===
+Count      : 50
+Min        : 15.448 ms
+Max        : 16.042 ms
+Mean       : 15.713 ms
+Std Dev    : 0.130 ms
+CV         : 0.82 %
+Median(p50): 15.699 ms
+p90        : 15.844 ms
+p95        : 15.958 ms
+p99        : 16.017 ms
+Throughput : 64 ops/s
+=== Estadísticas para decaps ===
+Count      : 50
+Min        : 23.777 ms
+Max        : 24.777 ms
+Mean       : 24.257 ms
+Std Dev    : 0.245 ms
+CV         : 1.01 %
+Median(p50): 24.225 ms
+p90        : 24.595 ms
+p95        : 24.633 ms
+p99        : 24.717 ms
+Throughput : 41 ops/s
+
+⚙️  Executing 50 times benchmark for: x448_hqc192
+Run   1/ 50:   keygen : 8.319 ms encaps: 16.145 ms decaps: 24.655 ms
+Run   2/ 50:   keygen : 8.066 ms encaps: 16.276 ms decaps: 24.900 ms
+Run   3/ 50:   keygen : 8.178 ms encaps: 16.276 ms decaps: 24.655 ms
+Run   4/ 50:   keygen : 8.185 ms encaps: 16.129 ms decaps: 24.680 ms
+Run   5/ 50:   keygen : 8.244 ms encaps: 16.250 ms decaps: 24.752 ms
+Run   6/ 50:   keygen : 8.244 ms encaps: 16.129 ms decaps: 24.888 ms
+Run   7/ 50:   keygen : 8.198 ms encaps: 16.161 ms decaps: 24.680 ms
+Run   8/ 50:   keygen : 8.322 ms encaps: 16.155 ms decaps: 24.559 ms
+Run   9/ 50:   keygen : 8.123 ms encaps: 16.367 ms decaps: 24.680 ms
+Run  10/ 50:   keygen : 8.185 ms encaps: 16.437 ms decaps: 24.570 ms
+Run  11/ 50:   keygen : 8.224 ms encaps: 16.491 ms decaps: 24.814 ms
+Run  12/ 50:   keygen : 8.066 ms encaps: 16.447 ms decaps: 24.741 ms
+Run  13/ 50:   keygen : 8.078 ms encaps: 16.346 ms decaps: 24.691 ms
+Run  14/ 50:   keygen : 8.143 ms encaps: 16.373 ms decaps: 24.814 ms
+Run  15/ 50:   keygen : 8.086 ms encaps: 16.628 ms decaps: 25.012 ms
+Run  16/ 50:   keygen : 8.105 ms encaps: 16.276 ms decaps: 24.802 ms
+Run  17/ 50:   keygen : 8.117 ms encaps: 16.207 ms decaps: 24.777 ms
+Run  18/ 50:   keygen : 8.092 ms encaps: 16.260 ms decaps: 24.716 ms
+Run  19/ 50:   keygen : 8.118 ms encaps: 16.287 ms decaps: 24.655 ms
+Run  20/ 50:   keygen : 8.097 ms encaps: 16.197 ms decaps: 25.138 ms
+Run  21/ 50:   keygen : 8.026 ms encaps: 16.367 ms decaps: 25.050 ms
+Run  22/ 50:   keygen : 8.091 ms encaps: 16.234 ms decaps: 25.176 ms
+Run  23/ 50:   keygen : 8.117 ms encaps: 16.181 ms decaps: 24.595 ms
+Run  24/ 50:   keygen : 8.110 ms encaps: 16.181 ms decaps: 24.900 ms
+Run  25/ 50:   keygen : 8.132 ms encaps: 16.250 ms decaps: 24.876 ms
+Run  26/ 50:   keygen : 8.105 ms encaps: 16.119 ms decaps: 24.802 ms
+Run  27/ 50:   keygen : 8.073 ms encaps: 16.240 ms decaps: 25.201 ms
+Run  28/ 50:   keygen : 8.130 ms encaps: 16.250 ms decaps: 24.925 ms
+Run  29/ 50:   keygen : 8.097 ms encaps: 16.129 ms decaps: 25.113 ms
+Run  30/ 50:   keygen : 8.130 ms encaps: 16.093 ms decaps: 25.113 ms
+Run  31/ 50:   keygen : 8.205 ms encaps: 16.207 ms decaps: 24.900 ms
+Run  32/ 50:   keygen : 8.132 ms encaps: 16.276 ms decaps: 24.680 ms
+Run  33/ 50:   keygen : 8.123 ms encaps: 16.145 ms decaps: 24.752 ms
+Run  34/ 50:   keygen : 8.230 ms encaps: 16.453 ms decaps: 25.063 ms
+Run  35/ 50:   keygen : 8.086 ms encaps: 16.303 ms decaps: 24.864 ms
+Run  36/ 50:   keygen : 8.210 ms encaps: 16.145 ms decaps: 24.474 ms
+Run  37/ 50:   keygen : 8.225 ms encaps: 16.067 ms decaps: 24.691 ms
+Run  38/ 50:   keygen : 8.145 ms encaps: 16.187 ms decaps: 24.963 ms
+Run  39/ 50:   keygen : 8.177 ms encaps: 16.529 ms decaps: 25.025 ms
+Run  40/ 50:   keygen : 8.170 ms encaps: 16.340 ms decaps: 24.839 ms
+Run  41/ 50:   keygen : 8.212 ms encaps: 16.474 ms decaps: 24.680 ms
+Run  42/ 50:   keygen : 8.118 ms encaps: 16.303 ms decaps: 25.050 ms
+Run  43/ 50:   keygen : 8.086 ms encaps: 16.313 ms decaps: 24.523 ms
+Run  44/ 50:   keygen : 8.177 ms encaps: 16.683 ms decaps: 25.063 ms
+Run  45/ 50:   keygen : 8.099 ms encaps: 16.447 ms decaps: 24.474 ms
+Run  46/ 50:   keygen : 8.183 ms encaps: 16.330 ms decaps: 24.752 ms
+Run  47/ 50:   keygen : 8.047 ms encaps: 16.356 ms decaps: 24.655 ms
+Run  48/ 50:   keygen : 8.150 ms encaps: 16.420 ms decaps: 24.777 ms
+Run  49/ 50:   keygen : 8.052 ms encaps: 16.507 ms decaps: 24.390 ms
+Run  50/ 50:   keygen : 8.019 ms encaps: 16.293 ms decaps: 24.802 ms
+  keygen encaps decaps  
+  8.019 16.293 24.802
+✅ Finished 50 executions for: x448_hqc192
+--------------------------------------------
+=== Estadísticas para keygen ===
+Count      : 50
+Min        : 8.019 ms
+Max        : 8.322 ms
+Mean       : 8.141 ms
+Std Dev    : 0.068 ms
+CV         : 0.83 %
+Median(p50): 8.127 ms
+p90        : 8.226 ms
+p95        : 8.244 ms
+p99        : 8.321 ms
+Throughput : 123 ops/s
+=== Estadísticas para encaps ===
+Count      : 50
+Min        : 16.067 ms
+Max        : 16.683 ms
+Mean       : 16.293 ms
+Std Dev    : 0.140 ms
+CV         : 0.86 %
+Median(p50): 16.276 ms
+p90        : 16.476 ms
+p95        : 16.519 ms
+p99        : 16.656 ms
+Throughput : 61 ops/s
+=== Estadísticas para decaps ===
+Count      : 50
+Min        : 24.390 ms
+Max        : 25.201 ms
+Mean       : 24.807 ms
+Std Dev    : 0.195 ms
+CV         : 0.79 %
+Median(p50): 24.790 ms
+p90        : 25.068 ms
+p95        : 25.127 ms
+p99        : 25.189 ms
+Throughput : 40 ops/s
+
+⚙️  Executing 50 times benchmark for: hqc256
+Run   1/ 50:   keygen : 14.178 ms encaps: 28.876 ms decaps: 44.381 ms
+Run   2/ 50:   keygen : 14.300 ms encaps: 29.500 ms decaps: 45.294 ms
+Run   3/ 50:   keygen : 14.465 ms encaps: 28.931 ms decaps: 44.425 ms
+Run   4/ 50:   keygen : 14.376 ms encaps: 29.070 ms decaps: 44.843 ms
+Run   5/ 50:   keygen : 14.465 ms encaps: 28.818 ms decaps: 44.381 ms
+Run   6/ 50:   keygen : 14.219 ms encaps: 28.764 ms decaps: 45.090 ms
+Run   7/ 50:   keygen : 14.138 ms encaps: 28.547 ms decaps: 44.978 ms
+Run   8/ 50:   keygen : 14.444 ms encaps: 28.466 ms decaps: 44.292 ms
+Run   9/ 50:   keygen : 14.085 ms encaps: 28.931 ms decaps: 45.385 ms
+Run  10/ 50:   keygen : 14.253 ms encaps: 28.519 ms decaps: 44.533 ms
+Run  11/ 50:   keygen : 14.099 ms encaps: 28.793 ms decaps: 45.090 ms
+Run  12/ 50:   keygen : 14.306 ms encaps: 28.847 ms decaps: 45.045 ms
+Run  13/ 50:   keygen : 14.239 ms encaps: 28.876 ms decaps: 45.225 ms
+Run  14/ 50:   keygen : 14.178 ms encaps: 28.414 ms decaps: 44.777 ms
+Run  15/ 50:   keygen : 14.444 ms encaps: 28.736 ms decaps: 44.978 ms
+Run  16/ 50:   keygen : 14.362 ms encaps: 29.014 ms decaps: 45.385 ms
+Run  17/ 50:   keygen : 14.219 ms encaps: 29.043 ms decaps: 44.381 ms
+Run  18/ 50:   keygen : 14.522 ms encaps: 29.014 ms decaps: 45.090 ms
+Run  19/ 50:   keygen : 14.620 ms encaps: 28.305 ms decaps: 44.292 ms
+Run  20/ 50:   keygen : 14.164 ms encaps: 29.128 ms decaps: 44.688 ms
+Run  21/ 50:   keygen : 14.507 ms encaps: 28.764 ms decaps: 44.336 ms
+Run  22/ 50:   keygen : 14.514 ms encaps: 28.414 ms decaps: 44.643 ms
+Run  23/ 50:   keygen : 14.286 ms encaps: 28.600 ms decaps: 44.425 ms
+Run  24/ 50:   keygen : 14.362 ms encaps: 28.736 ms decaps: 44.622 ms
+Run  25/ 50:   keygen : 14.486 ms encaps: 28.277 ms decaps: 44.336 ms
+Run  26/ 50:   keygen : 14.465 ms encaps: 28.657 ms decaps: 44.777 ms
+Run  27/ 50:   keygen : 14.327 ms encaps: 28.385 ms decaps: 44.425 ms
+Run  28/ 50:   keygen : 14.300 ms encaps: 28.793 ms decaps: 44.489 ms
+Run  29/ 50:   keygen : 14.124 ms encaps: 28.960 ms decaps: 44.035 ms
+Run  30/ 50:   keygen : 14.225 ms encaps: 29.043 ms decaps: 44.292 ms
+Run  31/ 50:   keygen : 14.280 ms encaps: 28.822 ms decaps: 45.022 ms
+Run  32/ 50:   keygen : 14.259 ms encaps: 29.184 ms decaps: 44.079 ms
+Run  33/ 50:   keygen : 14.300 ms encaps: 29.298 ms decaps: 45.135 ms
+Run  34/ 50:   keygen : 14.219 ms encaps: 29.157 ms decaps: 44.643 ms
+Run  35/ 50:   keygen : 14.409 ms encaps: 28.547 ms decaps: 44.444 ms
+Run  36/ 50:   keygen : 14.306 ms encaps: 28.847 ms decaps: 44.035 ms
+Run  37/ 50:   keygen : 14.239 ms encaps: 29.043 ms decaps: 44.185 ms
+Run  38/ 50:   keygen : 14.335 ms encaps: 28.988 ms decaps: 44.533 ms
+Run  39/ 50:   keygen : 14.362 ms encaps: 28.931 ms decaps: 44.688 ms
+Run  40/ 50:   keygen : 14.341 ms encaps: 28.736 ms decaps: 45.430 ms
+Run  41/ 50:   keygen : 14.613 ms encaps: 28.682 ms decaps: 44.732 ms
+Run  42/ 50:   keygen : 14.265 ms encaps: 28.442 ms decaps: 45.090 ms
+Run  43/ 50:   keygen : 14.178 ms encaps: 28.571 ms decaps: 44.978 ms
+Run  44/ 50:   keygen : 14.178 ms encaps: 29.441 ms decaps: 44.888 ms
+Run  45/ 50:   keygen : 14.535 ms encaps: 28.876 ms decaps: 44.933 ms
+Run  46/ 50:   keygen : 14.557 ms encaps: 28.876 ms decaps: 45.067 ms
+Run  47/ 50:   keygen : 14.099 ms encaps: 29.184 ms decaps: 44.777 ms
+Run  48/ 50:   keygen : 14.286 ms encaps: 28.682 ms decaps: 44.688 ms
+Run  49/ 50:   keygen : 14.397 ms encaps: 28.764 ms decaps: 44.622 ms
+Run  50/ 50:   keygen : 14.403 ms encaps: 28.682 ms decaps: 45.180 ms
+  keygen encaps decaps  
+  14.403 28.682 45.180
+✅ Finished 50 executions for: hqc256
+--------------------------------------------
+=== Estadísticas para keygen ===
+Count      : 50
+Min        : 14.085 ms
+Max        : 14.620 ms
+Mean       : 14.325 ms
+Std Dev    : 0.139 ms
+CV         : 0.97 %
+Median(p50): 14.303 ms
+p90        : 14.515 ms
+p95        : 14.547 ms
+p99        : 14.617 ms
+Throughput : 70 ops/s
+=== Estadísticas para encaps ===
+Count      : 50
+Min        : 28.277 ms
+Max        : 29.500 ms
+Mean       : 28.820 ms
+Std Dev    : 0.277 ms
+CV         : 0.96 %
+Median(p50): 28.820 ms
+p90        : 29.160 ms
+p95        : 29.247 ms
+p99        : 29.471 ms
+Throughput : 35 ops/s
+=== Estadísticas para decaps ===
+Count      : 50
+Min        : 44.035 ms
+Max        : 45.430 ms
+Mean       : 44.722 ms
+Std Dev    : 0.374 ms
+CV         : 0.84 %
+Median(p50): 44.688 ms
+p90        : 45.184 ms
+p95        : 45.344 ms
+p99        : 45.408 ms
+Throughput : 22 ops/s
+
+⚙️  Executing 50 times benchmark for: p521_hqc256
+Run   1/ 50:   keygen : 18.300 ms encaps: 34.281 ms decaps: 48.641 ms
+Run   2/ 50:   keygen : 18.370 ms encaps: 34.722 ms decaps: 47.714 ms
+Run   3/ 50:   keygen : 18.333 ms encaps: 34.913 ms decaps: 48.221 ms
+Run   4/ 50:   keygen : 18.571 ms encaps: 34.281 ms decaps: 47.714 ms
+Run   5/ 50:   keygen : 18.382 ms encaps: 34.048 ms decaps: 47.441 ms
+Run   6/ 50:   keygen : 17.921 ms encaps: 33.898 ms decaps: 48.038 ms
+Run   7/ 50:   keygen : 18.054 ms encaps: 34.082 ms decaps: 46.995 ms
+Run   8/ 50:   keygen : 18.087 ms encaps: 33.966 ms decaps: 47.714 ms
+Run   9/ 50:   keygen : 18.333 ms encaps: 34.000 ms decaps: 47.536 ms
+Run  10/ 50:   keygen : 18.036 ms encaps: 34.116 ms decaps: 47.714 ms
+Run  11/ 50:   keygen : 18.036 ms encaps: 34.232 ms decaps: 47.311 ms
+Run  12/ 50:   keygen : 18.116 ms encaps: 33.885 ms decaps: 47.264 ms
+Run  13/ 50:   keygen : 18.119 ms encaps: 34.082 ms decaps: 48.221 ms
+Run  14/ 50:   keygen : 18.300 ms encaps: 34.164 ms decaps: 47.762 ms
+Run  15/ 50:   keygen : 18.185 ms encaps: 34.247 ms decaps: 47.136 ms
+Run  16/ 50:   keygen : 18.134 ms encaps: 33.898 ms decaps: 47.358 ms
+Run  17/ 50:   keygen : 18.349 ms encaps: 34.349 ms decaps: 47.441 ms
+Run  18/ 50:   keygen : 18.083 ms encaps: 34.399 ms decaps: 47.393 ms
+Run  19/ 50:   keygen : 18.022 ms encaps: 34.433 ms decaps: 47.536 ms
+Run  20/ 50:   keygen : 17.875 ms encaps: 34.552 ms decaps: 47.762 ms
+Run  21/ 50:   keygen : 18.036 ms encaps: 34.247 ms decaps: 47.217 ms
+Run  22/ 50:   keygen : 17.957 ms encaps: 34.281 ms decaps: 47.217 ms
+Run  23/ 50:   keygen : 17.953 ms encaps: 34.843 ms decaps: 47.441 ms
+Run  24/ 50:   keygen : 18.149 ms encaps: 34.232 ms decaps: 47.358 ms
+Run  25/ 50:   keygen : 18.134 ms encaps: 34.281 ms decaps: 47.311 ms
+Run  26/ 50:   keygen : 17.939 ms encaps: 34.000 ms decaps: 47.264 ms
+Run  27/ 50:   keygen : 18.315 ms encaps: 34.034 ms decaps: 47.583 ms
+Run  28/ 50:   keygen : 18.004 ms encaps: 34.671 ms decaps: 47.393 ms
+Run  29/ 50:   keygen : 17.953 ms encaps: 33.966 ms decaps: 47.406 ms
+Run  30/ 50:   keygen : 17.925 ms encaps: 34.433 ms decaps: 47.358 ms
+Run  31/ 50:   keygen : 18.018 ms encaps: 33.885 ms decaps: 47.583 ms
+Run  32/ 50:   keygen : 17.971 ms encaps: 34.014 ms decaps: 47.264 ms
+Run  33/ 50:   keygen : 17.907 ms encaps: 33.885 ms decaps: 47.583 ms
+Run  34/ 50:   keygen : 18.007 ms encaps: 33.885 ms decaps: 47.089 ms
+Run  35/ 50:   keygen : 18.382 ms encaps: 34.048 ms decaps: 47.667 ms
+Run  36/ 50:   keygen : 18.101 ms encaps: 34.198 ms decaps: 47.488 ms
+Run  37/ 50:   keygen : 18.087 ms encaps: 34.048 ms decaps: 47.311 ms
+Run  38/ 50:   keygen : 17.971 ms encaps: 34.130 ms decaps: 47.619 ms
+Run  39/ 50:   keygen : 18.069 ms encaps: 33.818 ms decaps: 48.125 ms
+Run  40/ 50:   keygen : 17.971 ms encaps: 34.247 ms decaps: 47.847 ms
+Run  41/ 50:   keygen : 18.087 ms encaps: 33.784 ms decaps: 47.441 ms
+Run  42/ 50:   keygen : 17.971 ms encaps: 34.048 ms decaps: 47.170 ms
+Run  43/ 50:   keygen : 18.167 ms encaps: 34.082 ms decaps: 47.714 ms
+Run  44/ 50:   keygen : 18.004 ms encaps: 34.014 ms decaps: 47.943 ms
+Run  45/ 50:   keygen : 18.101 ms encaps: 33.966 ms decaps: 47.810 ms
+Run  46/ 50:   keygen : 18.022 ms encaps: 34.281 ms decaps: 47.264 ms
+Run  47/ 50:   keygen : 17.957 ms encaps: 34.048 ms decaps: 46.916 ms
+Run  48/ 50:   keygen : 18.233 ms encaps: 34.517 ms decaps: 47.406 ms
+Run  49/ 50:   keygen : 18.004 ms encaps: 34.586 ms decaps: 47.170 ms
+Run  50/ 50:   keygen : 18.054 ms encaps: 34.281 ms decaps: 47.217 ms
+  keygen encaps decaps  
+  18.054 34.281 47.217
+✅ Finished 50 executions for: p521_hqc256
+--------------------------------------------
+=== Estadísticas para keygen ===
+Count      : 50
+Min        : 17.875 ms
+Max        : 18.571 ms
+Mean       : 18.101 ms
+Std Dev    : 0.156 ms
+CV         : 0.86 %
+Median(p50): 18.061 ms
+p90        : 18.335 ms
+p95        : 18.377 ms
+p99        : 18.478 ms
+Throughput : 55 ops/s
+=== Estadísticas para encaps ===
+Count      : 50
+Min        : 33.784 ms
+Max        : 34.913 ms
+Mean       : 34.186 ms
+Std Dev    : 0.264 ms
+CV         : 0.77 %
+Median(p50): 34.123 ms
+p90        : 34.555 ms
+p95        : 34.699 ms
+p99        : 34.879 ms
+Throughput : 29 ops/s
+=== Estadísticas para decaps ===
+Count      : 50
+Min        : 46.916 ms
+Max        : 48.641 ms
+Mean       : 47.522 ms
+Std Dev    : 0.339 ms
+CV         : 0.71 %
+Median(p50): 47.441 ms
+p90        : 47.953 ms
+p95        : 48.178 ms
+p99        : 48.435 ms
+Throughput : 21 ops/s
+
+🧹 Cleaning up container...
+oqs-openssl-extended

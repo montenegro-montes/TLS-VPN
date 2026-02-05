@@ -1,0 +1,250 @@
+🚀 Creating new container oqs-openssl-extended with isolation flags...
+28d66d474a8c9c46a83452cea83697569591f269b510ab143527a4cbb1011c73
+📁 Ensuring target directory in the container...
+📤 Copying benchmark_sign_primitives.sh to container...
+Successfully copied 5.63kB to oqs-openssl-extended:/opt/oqssa/bin/
+▶️ Executing the benchmark script inside the container...
+🔁 Repetitions per algorithm: 50
+⚙️  Executing 50 times benchmark for: ed25519
+Run   1/ 50:   sign: 0.023 ms   verify: 0.075 ms
+Run   2/ 50:   sign: 0.024 ms   verify: 0.074 ms
+Run   3/ 50:   sign: 0.024 ms   verify: 0.075 ms
+Run   4/ 50:   sign: 0.024 ms   verify: 0.074 ms
+Run   5/ 50:   sign: 0.024 ms   verify: 0.082 ms
+Run   6/ 50:   sign: 0.024 ms   verify: 0.076 ms
+Run   7/ 50:   sign: 0.024 ms   verify: 0.076 ms
+Run   8/ 50:   sign: 0.024 ms   verify: 0.076 ms
+Run   9/ 50:   sign: 0.024 ms   verify: 0.076 ms
+Run  10/ 50:   sign: 0.024 ms   verify: 0.076 ms
+Run  11/ 50:   sign: 0.024 ms   verify: 0.076 ms
+Run  12/ 50:   sign: 0.024 ms   verify: 0.076 ms
+Run  13/ 50:   sign: 0.024 ms   verify: 0.076 ms
+Run  14/ 50:   sign: 0.024 ms   verify: 0.077 ms
+Run  15/ 50:   sign: 0.024 ms   verify: 0.076 ms
+Run  16/ 50:   sign: 0.024 ms   verify: 0.076 ms
+Run  17/ 50:   sign: 0.024 ms   verify: 0.084 ms
+Run  18/ 50:   sign: 0.024 ms   verify: 0.077 ms
+Run  19/ 50:   sign: 0.024 ms   verify: 0.077 ms
+Run  20/ 50:   sign: 0.024 ms   verify: 0.075 ms
+Run  21/ 50:   sign: 0.024 ms   verify: 0.077 ms
+Run  22/ 50:   sign: 0.024 ms   verify: 0.076 ms
+Run  23/ 50:   sign: 0.024 ms   verify: 0.076 ms
+Run  24/ 50:   sign: 0.024 ms   verify: 0.076 ms
+Run  25/ 50:   sign: 0.024 ms   verify: 0.076 ms
+Run  26/ 50:   sign: 0.024 ms   verify: 0.077 ms
+Run  27/ 50:   sign: 0.024 ms   verify: 0.076 ms
+Run  28/ 50:   sign: 0.024 ms   verify: 0.076 ms
+Run  29/ 50:   sign: 0.024 ms   verify: 0.077 ms
+Run  30/ 50:   sign: 0.024 ms   verify: 0.078 ms
+Run  31/ 50:   sign: 0.026 ms   verify: 0.078 ms
+Run  32/ 50:   sign: 0.024 ms   verify: 0.078 ms
+Run  33/ 50:   sign: 0.024 ms   verify: 0.077 ms
+Run  34/ 50:   sign: 0.024 ms   verify: 0.076 ms
+Run  35/ 50:   sign: 0.024 ms   verify: 0.076 ms
+Run  36/ 50:   sign: 0.024 ms   verify: 0.077 ms
+Run  37/ 50:   sign: 0.024 ms   verify: 0.076 ms
+Run  38/ 50:   sign: 0.024 ms   verify: 0.077 ms
+Run  39/ 50:   sign: 0.024 ms   verify: 0.078 ms
+Run  40/ 50:   sign: 0.024 ms   verify: 0.077 ms
+Run  41/ 50:   sign: 0.024 ms   verify: 0.076 ms
+Run  42/ 50:   sign: 0.024 ms   verify: 0.078 ms
+Run  43/ 50:   sign: 0.025 ms   verify: 0.077 ms
+Run  44/ 50:   sign: 0.024 ms   verify: 0.079 ms
+Run  45/ 50:   sign: 0.025 ms   verify: 0.077 ms
+Run  46/ 50:   sign: 0.024 ms   verify: 0.078 ms
+Run  47/ 50:   sign: 0.024 ms   verify: 0.077 ms
+Run  48/ 50:   sign: 0.024 ms   verify: 0.077 ms
+Run  49/ 50:   sign: 0.024 ms   verify: 0.078 ms
+Run  50/ 50:   sign: 0.024 ms   verify: 0.079 ms
+
+✅ Finished 50 executions for: ed25519
+--------------------------------------------
+=== Stadistics to sign (ed25519) ===
+Count      : 50
+Min        : 0.023 ms
+Max        : 0.026 ms
+Mean       : 0.024 ms
+Std Dev    : 0.000 ms
+CV         : 1.55 %
+Median(p50): 0.024 ms
+p90        : 0.024 ms
+p95        : 0.025 ms
+p99        : 0.026 ms
+Throughput : 41563 ops/s
+=== Stadistics to verify (ed25519) ===
+Count      : 50
+Min        : 0.074 ms
+Max        : 0.084 ms
+Mean       : 0.077 ms
+Std Dev    : 0.002 ms
+CV         : 2.18 %
+Median(p50): 0.076 ms
+p90        : 0.078 ms
+p95        : 0.079 ms
+p99        : 0.083 ms
+Throughput : 13017 ops/s
+
+⚙️  Executing 50 times benchmark for: ecdsap384
+Run   1/ 50:   sign: 0.558 ms   verify: 0.471 ms
+Run   2/ 50:   sign: 0.564 ms   verify: 0.465 ms
+Run   3/ 50:   sign: 0.559 ms   verify: 0.475 ms
+Run   4/ 50:   sign: 0.560 ms   verify: 0.476 ms
+Run   5/ 50:   sign: 0.558 ms   verify: 0.470 ms
+Run   6/ 50:   sign: 0.560 ms   verify: 0.474 ms
+Run   7/ 50:   sign: 0.559 ms   verify: 0.473 ms
+Run   8/ 50:   sign: 0.564 ms   verify: 0.470 ms
+Run   9/ 50:   sign: 0.565 ms   verify: 0.466 ms
+Run  10/ 50:   sign: 0.570 ms   verify: 0.470 ms
+Run  11/ 50:   sign: 0.563 ms   verify: 0.473 ms
+Run  12/ 50:   sign: 0.564 ms   verify: 0.469 ms
+Run  13/ 50:   sign: 0.563 ms   verify: 0.471 ms
+Run  14/ 50:   sign: 0.566 ms   verify: 0.482 ms
+Run  15/ 50:   sign: 0.557 ms   verify: 0.470 ms
+Run  16/ 50:   sign: 0.557 ms   verify: 0.472 ms
+Run  17/ 50:   sign: 0.564 ms   verify: 0.492 ms
+Run  18/ 50:   sign: 0.560 ms   verify: 0.465 ms
+Run  19/ 50:   sign: 0.560 ms   verify: 0.475 ms
+Run  20/ 50:   sign: 0.561 ms   verify: 0.465 ms
+Run  21/ 50:   sign: 0.566 ms   verify: 0.460 ms
+Run  22/ 50:   sign: 0.557 ms   verify: 0.473 ms
+Run  23/ 50:   sign: 0.556 ms   verify: 0.475 ms
+Run  24/ 50:   sign: 0.559 ms   verify: 0.478 ms
+Run  25/ 50:   sign: 0.558 ms   verify: 0.472 ms
+Run  26/ 50:   sign: 0.565 ms   verify: 0.475 ms
+Run  27/ 50:   sign: 0.572 ms   verify: 0.477 ms
+Run  28/ 50:   sign: 0.559 ms   verify: 0.473 ms
+Run  29/ 50:   sign: 0.558 ms   verify: 0.466 ms
+Run  30/ 50:   sign: 0.602 ms   verify: 0.469 ms
+Run  31/ 50:   sign: 0.566 ms   verify: 0.480 ms
+Run  32/ 50:   sign: 0.561 ms   verify: 0.470 ms
+Run  33/ 50:   sign: 0.564 ms   verify: 0.472 ms
+Run  34/ 50:   sign: 0.558 ms   verify: 0.464 ms
+Run  35/ 50:   sign: 0.555 ms   verify: 0.463 ms
+Run  36/ 50:   sign: 0.557 ms   verify: 0.460 ms
+Run  37/ 50:   sign: 0.555 ms   verify: 0.478 ms
+Run  38/ 50:   sign: 0.562 ms   verify: 0.474 ms
+Run  39/ 50:   sign: 0.556 ms   verify: 0.467 ms
+Run  40/ 50:   sign: 0.563 ms   verify: 0.471 ms
+Run  41/ 50:   sign: 0.564 ms   verify: 0.466 ms
+Run  42/ 50:   sign: 0.566 ms   verify: 0.461 ms
+Run  43/ 50:   sign: 0.565 ms   verify: 0.467 ms
+Run  44/ 50:   sign: 0.562 ms   verify: 0.467 ms
+Run  45/ 50:   sign: 0.567 ms   verify: 0.473 ms
+Run  46/ 50:   sign: 0.557 ms   verify: 0.465 ms
+Run  47/ 50:   sign: 0.564 ms   verify: 0.466 ms
+Run  48/ 50:   sign: 0.563 ms   verify: 0.463 ms
+Run  49/ 50:   sign: 0.563 ms   verify: 0.465 ms
+Run  50/ 50:   sign: 0.557 ms   verify: 0.470 ms
+
+✅ Finished 50 executions for: ecdsap384
+--------------------------------------------
+=== Stadistics to sign (ecdsap384) ===
+Count      : 50
+Min        : 0.555 ms
+Max        : 0.602 ms
+Mean       : 0.562 ms
+Std Dev    : 0.007 ms
+CV         : 1.24 %
+Median(p50): 0.562 ms
+p90        : 0.566 ms
+p95        : 0.569 ms
+p99        : 0.587 ms
+Throughput : 1779 ops/s
+=== Stadistics to verify (ecdsap384) ===
+Count      : 50
+Min        : 0.460 ms
+Max        : 0.492 ms
+Mean       : 0.470 ms
+Std Dev    : 0.006 ms
+CV         : 1.27 %
+Median(p50): 0.470 ms
+p90        : 0.477 ms
+p95        : 0.479 ms
+p99        : 0.487 ms
+Throughput : 2125 ops/s
+
+⚙️  Executing 50 times benchmark for: ecdsap521
+Run   1/ 50:   sign: 1.404 ms   verify: 1.089 ms
+Run   2/ 50:   sign: 1.385 ms   verify: 1.094 ms
+Run   3/ 50:   sign: 1.416 ms   verify: 1.090 ms
+Run   4/ 50:   sign: 1.411 ms   verify: 1.083 ms
+Run   5/ 50:   sign: 1.401 ms   verify: 1.092 ms
+Run   6/ 50:   sign: 1.417 ms   verify: 1.092 ms
+Run   7/ 50:   sign: 1.407 ms   verify: 1.085 ms
+Run   8/ 50:   sign: 1.383 ms   verify: 1.086 ms
+Run   9/ 50:   sign: 1.380 ms   verify: 1.088 ms
+Run  10/ 50:   sign: 1.391 ms   verify: 1.105 ms
+Run  11/ 50:   sign: 1.428 ms   verify: 1.096 ms
+Run  12/ 50:   sign: 1.424 ms   verify: 1.085 ms
+Run  13/ 50:   sign: 1.394 ms   verify: 1.101 ms
+Run  14/ 50:   sign: 1.382 ms   verify: 1.113 ms
+Run  15/ 50:   sign: 1.387 ms   verify: 1.101 ms
+Run  16/ 50:   sign: 1.387 ms   verify: 1.112 ms
+Run  17/ 50:   sign: 1.387 ms   verify: 1.093 ms
+Run  18/ 50:   sign: 1.405 ms   verify: 1.092 ms
+Run  19/ 50:   sign: 1.432 ms   verify: 1.171 ms
+Run  20/ 50:   sign: 1.391 ms   verify: 1.104 ms
+Run  21/ 50:   sign: 1.485 ms   verify: 1.091 ms
+Run  22/ 50:   sign: 1.413 ms   verify: 1.114 ms
+Run  23/ 50:   sign: 1.389 ms   verify: 1.106 ms
+Run  24/ 50:   sign: 1.410 ms   verify: 1.093 ms
+Run  25/ 50:   sign: 1.410 ms   verify: 1.091 ms
+Run  26/ 50:   sign: 1.411 ms   verify: 1.083 ms
+Run  27/ 50:   sign: 1.418 ms   verify: 1.095 ms
+Run  28/ 50:   sign: 1.389 ms   verify: 1.336 ms
+Run  29/ 50:   sign: 1.410 ms   verify: 1.096 ms
+Run  30/ 50:   sign: 1.401 ms   verify: 1.130 ms
+Run  31/ 50:   sign: 1.441 ms   verify: 1.087 ms
+Run  32/ 50:   sign: 1.410 ms   verify: 1.087 ms
+Run  33/ 50:   sign: 1.412 ms   verify: 1.088 ms
+Run  34/ 50:   sign: 1.423 ms   verify: 1.092 ms
+Run  35/ 50:   sign: 1.404 ms   verify: 1.112 ms
+Run  36/ 50:   sign: 1.399 ms   verify: 1.094 ms
+Run  37/ 50:   sign: 1.417 ms   verify: 1.092 ms
+Run  38/ 50:   sign: 1.397 ms   verify: 1.097 ms
+Run  39/ 50:   sign: 1.382 ms   verify: 1.105 ms
+Run  40/ 50:   sign: 1.381 ms   verify: 1.098 ms
+Run  41/ 50:   sign: 1.402 ms   verify: 1.094 ms
+Run  42/ 50:   sign: 1.405 ms   verify: 1.083 ms
+Run  43/ 50:   sign: 1.418 ms   verify: 1.099 ms
+Run  44/ 50:   sign: 1.399 ms   verify: 1.105 ms
+Run  45/ 50:   sign: 1.388 ms   verify: 1.111 ms
+Run  46/ 50:   sign: 1.384 ms   verify: 1.076 ms
+Run  47/ 50:   sign: 1.403 ms   verify: 1.105 ms
+Run  48/ 50:   sign: 1.404 ms   verify: 1.106 ms
+Run  49/ 50:   sign: 1.400 ms   verify: 1.104 ms
+Run  50/ 50:   sign: 1.410 ms   verify: 1.096 ms
+
+✅ Finished 50 executions for: ecdsap521
+--------------------------------------------
+=== Stadistics to sign (ecdsap521) ===
+Count      : 50
+Min        : 1.380 ms
+Max        : 1.485 ms
+Mean       : 1.405 ms
+Std Dev    : 0.018 ms
+CV         : 1.32 %
+Median(p50): 1.404 ms
+p90        : 1.423 ms
+p95        : 1.430 ms
+p99        : 1.463 ms
+Throughput : 712 ops/s
+=== Stadistics to verify (ecdsap521) ===
+Count      : 50
+Min        : 1.076 ms
+Max        : 1.336 ms
+Mean       : 1.103 ms
+Std Dev    : 0.037 ms
+CV         : 3.33 %
+Median(p50): 1.095 ms
+p90        : 1.112 ms
+p95        : 1.123 ms
+p99        : 1.255 ms
+Throughput : 907 ops/s
+
+
+What's next:
+    Try Docker Debug for seamless, persistent debugging tools in any container or image → docker debug oqs-openssl-extended
+    Learn more at https://docs.docker.com/go/debug-cli/
+🧹 Cleaning up container...
+oqs-openssl-extended

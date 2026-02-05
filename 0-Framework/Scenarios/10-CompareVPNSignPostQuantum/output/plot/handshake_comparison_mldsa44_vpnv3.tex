@@ -1,0 +1,13 @@
+\begin{table*}[!ht]
+\begin{tabular}{lrrr|rrr|r}
+ \toprule
+& \multicolumn{3}{c}{\bfseries ARM} & \multicolumn{3}{c}{\bfseries x86} &\\
+\cmidrule(lr){2-4} \cmidrule(lr){5-7}
+\textbf{KEM} & \textbf{Mean} & \textbf{CV} & \textbf{Out.\%} & \textbf{Mean} & \textbf{CV} & \textbf{Out.\%} & \textbf{SpeedUp}\\
+\midrule
+hqc128 & 17.84 & 0.17 & 8.16 & 38.41 & 0.06 & 6.25 & 2.15× \\
+mlkem512 & 9.30 & 0.10 & 2.04 & 18.50 & 0.06 & 0.00 & 1.99× \\
+x25519 & 9.16 & 0.08 & 0.00 & 17.89 & 0.05 & 4.08 & 1.95× \\
+\bottomrule
+\end{tabular}
+\end{table*}

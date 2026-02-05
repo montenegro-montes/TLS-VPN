@@ -1,0 +1,4 @@
+signature,sign_mean,sign_sd,sign_cv(%),sign_median,sign_iqr,sign_outliers(%),verify_mean,verify_sd,verify_cv(%),verify_median,verify_iqr,verify_outliers(%)
+ed25519,0.048,0.001,1.13,0.048,0.001,0.00,0.156,0.002,1.12,0.156,0.003,0.00
+ecdsap384,1.253,0.012,0.99,1.253,0.017,0.00,1.034,0.010,1.00,1.034,0.014,0.00
+ecdsap521,3.001,0.046,1.52,2.989,0.054,4.00,2.351,0.036,1.51,2.347,0.046,2.00
